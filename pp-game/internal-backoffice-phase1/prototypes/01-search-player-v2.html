@@ -87,19 +87,18 @@
     .entry-actions { display: flex; gap: 8px; margin: 10px 0 18px; flex-wrap: wrap; }
     .audit { border: 1px solid #f0c36b; background: #fff7e6; color: #92400e; border-radius: 7px; padding: 12px; font-size: 12px; line-height: 1.5; }
     .drawer { position: absolute; width: 520px; background: #fff; border: 2px solid #76b7ff; border-radius: 8px; box-shadow: 0 20px 50px rgba(15, 23, 42, .22); overflow: hidden; }
-    .drawer.bet { left: 420px; top: 646px; }
-    .drawer.wallet { right: 22px; top: 646px; border-color: #48d1a0; }
-    .drawer-head { height: 48px; display: flex; justify-content: space-between; align-items: center; padding: 0 16px; border-bottom: 1px solid var(--line); background: #f8fbff; }
+    .drawer.bet { left: 420px; top: 700px; }
+    .drawer.wallet { right: 22px; top: 700px; border-color: #48d1a0; }
+    .drawer-head { height: 42px; display: flex; justify-content: space-between; align-items: center; padding: 0 14px; border-bottom: 1px solid var(--line); background: #f8fbff; }
     .drawer-title { font-size: 16px; font-weight: 900; }
     .close { width: 28px; height: 28px; border-radius: 50%; border: 1px solid #c6d4e6; display: flex; align-items: center; justify-content: center; color: #64748b; font-weight: 900; }
-    .drawer-body { padding: 12px 14px 14px; }
-    .drawer-note { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
-    .mini-table th, .mini-table td { padding: 7px 6px; font-size: 11px; }
+    .drawer-body { padding: 9px 12px 11px; }
+    .drawer-note { font-size: 11px; color: var(--muted); margin-bottom: 7px; }
+    .mini-table th, .mini-table td { padding: 5px 5px; font-size: 10.5px; }
     .money-plus { color: #047857; font-weight: 900; }
     .money-minus { color: #b91c1c; font-weight: 900; }
-    .callout { position: absolute; background: #fff; border: 2px solid #f59e0b; color: #78350f; border-radius: 7px; padding: 8px 10px; font-size: 12px; font-weight: 900; box-shadow: 0 10px 24px rgba(146, 64, 14, .18); }
-    .callout.one { left: 890px; top: 492px; }
-    .callout.two { right: 532px; top: 382px; }
+    .annotation-strip { position: absolute; left: 272px; right: 22px; top: 672px; display: flex; gap: 10px; align-items: center; color: #78350f; font-size: 12px; font-weight: 900; }
+    .annotation-strip span { border: 1px solid #f59e0b; background: #fff7ed; border-radius: 999px; padding: 6px 10px; box-shadow: 0 8px 20px rgba(146, 64, 14, .12); }
     .footer { position: absolute; left: 272px; bottom: 8px; color: #75859d; font-size: 12px; }
   </style>
 </head>
@@ -191,15 +190,17 @@
             <div class="audit">查看玩家详情、注单弹窗、钱包流水弹窗、导出玩家列表均写入审计日志；普通角色只看脱敏玩家信息。</div>
           </div>
         </aside>
-        <div class="callout one">操作栏必须是按钮，不是普通文字</div>
-        <div class="callout two">点击后展示弹窗/抽屉原型</div>
+        <div class="annotation-strip">
+          <span>标注 A：操作栏必须是按钮，不是普通文字</span>
+          <span>标注 B：点击后打开注单/流水弹窗；弹窗内二级动作规则写入 Issue</span>
+        </div>
         <section class="drawer bet">
           <div class="drawer-head"><div class="drawer-title">玩家注单弹窗 · player_839201</div><div class="close">×</div></div>
           <div class="drawer-body">
             <div class="drawer-note">从操作栏“注单”或右侧“查看玩家注单”打开；默认展示最近 20 条，可跳转注单详情。</div>
-            <table class="mini-table"><thead><tr><th>注单 ID</th><th>游戏/回合</th><th>投注内容</th><th>投注</th><th>派奖</th><th>状态</th><th>操作</th></tr></thead><tbody>
-              <tr><td>B-839201-01</td><td>G-18421 / R-7781</td><td>Roulette · Red</td><td>100.00 THB</td><td class="money-plus">200.00</td><td><span class="status ok">已结算</span></td><td><button class="btn small">详情</button></td></tr>
-              <tr><td>B-839201-02</td><td>G-18421 / R-7782</td><td>Baccarat · Banker</td><td>50.00 THB</td><td>0.00</td><td><span class="status limit">退款中</span></td><td><button class="btn small">详情</button></td></tr>
+            <table class="mini-table"><thead><tr><th>注单 ID</th><th>游戏/回合</th><th>投注内容</th><th>投注</th><th>派奖</th><th>状态</th><th>二级动作</th></tr></thead><tbody>
+              <tr><td>B-839201-01</td><td>G-18421 / R-7781</td><td>Roulette · Red</td><td>100.00 THB</td><td class="money-plus">200.00</td><td><span class="status ok">已结算</span></td><td><button class="btn small">注单详情</button></td></tr>
+              <tr><td>B-839201-02</td><td>G-18421 / R-7782</td><td>Baccarat · Banker</td><td>50.00 THB</td><td>0.00</td><td><span class="status limit">退款中</span></td><td><button class="btn small">注单详情</button></td></tr>
             </tbody></table>
           </div>
         </section>
@@ -207,9 +208,9 @@
           <div class="drawer-head"><div class="drawer-title">钱包流水弹窗 · U-928301</div><div class="close">×</div></div>
           <div class="drawer-body">
             <div class="drawer-note">从操作栏“流水”或右侧“查看钱包流水”打开；只读展示交易链路，可跳转结算异常。</div>
-            <table class="mini-table"><thead><tr><th>交易 ID</th><th>类型</th><th>金额</th><th>前余额</th><th>后余额</th><th>状态</th><th>异常</th></tr></thead><tbody>
-              <tr><td>TX-8891201</td><td>投注扣款</td><td class="money-minus">-100.00 THB</td><td>980.00</td><td>880.00</td><td><span class="status ok">成功</span></td><td>-</td></tr>
-              <tr><td>TX-8891202</td><td>派奖入账</td><td class="money-plus">+200.00 THB</td><td>880.00</td><td>1080.00</td><td><span class="status ok">成功</span></td><td>-</td></tr>
+            <table class="mini-table"><thead><tr><th>交易 ID</th><th>类型</th><th>金额</th><th>前余额</th><th>后余额</th><th>状态</th><th>二级动作</th></tr></thead><tbody>
+              <tr><td>TX-8891201</td><td>投注扣款</td><td class="money-minus">-100.00 THB</td><td>980.00</td><td>880.00</td><td><span class="status ok">成功</span></td><td><button class="btn small">交易详情</button></td></tr>
+              <tr><td>TX-8891202</td><td>派奖入账</td><td class="money-plus">+200.00 THB</td><td>880.00</td><td>1080.00</td><td><span class="status ok">成功</span></td><td><button class="btn small">交易详情</button></td></tr>
             </tbody></table>
           </div>
         </section>
