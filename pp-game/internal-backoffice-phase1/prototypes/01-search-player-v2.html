@@ -3,218 +3,205 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>搜索玩家页面原型 v2</title>
+  <title>搜索玩家页面原型 - 现后台风格</title>
   <style>
     :root {
-      --nav: #111827;
-      --bg: #f3f6fb;
-      --panel: #fff;
-      --line: #d8e1ef;
-      --muted: #64748b;
-      --text: #172033;
-      --blue: #2563eb;
-      --blue-soft: #eaf2ff;
-      --green: #0f9f6e;
-      --green-soft: #dcfce7;
-      --amber: #b45309;
-      --amber-soft: #fef3c7;
-      --red: #dc2626;
-      --red-soft: #fee2e2;
+      --bg: #111a2b;
+      --top: #0c1423;
+      --side: #0f192a;
+      --panel: #111d31;
+      --panel-2: #1f2d42;
+      --line: #2e3c52;
+      --text: #e6edf7;
+      --muted: #9aa8ba;
+      --blue: #3b82f6;
+      --green: #52c41a;
+      --red: #ff4d4f;
+      --yellow: #d6a23f;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      width: 1680px;
-      height: 1050px;
+      width: 2560px;
+      height: 1080px;
       overflow: hidden;
       background: var(--bg);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
       letter-spacing: 0;
     }
-    .app { display: grid; grid-template-columns: 250px 1fr; height: 1050px; }
-    .sidebar { background: var(--nav); color: #d6deef; padding: 22px 18px; }
-    .brand { color: #fff; font-size: 23px; font-weight: 900; margin-bottom: 4px; }
-    .phase { font-size: 13px; color: #9ca8bd; margin-bottom: 34px; }
-    .nav-title { color: #8fa0bb; font-size: 13px; margin: 22px 0 10px; }
-    .nav-item { height: 40px; display: flex; align-items: center; padding: 0 13px; border-radius: 7px; font-weight: 700; font-size: 14px; }
-    .nav-item.active { background: #2454d6; color: #fff; }
-    .nav-item.dim { color: #a8b4c8; }
-    .main { display: grid; grid-template-rows: 70px 1fr; min-width: 0; }
-    .topbar { background: #fff; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; padding: 0 28px; }
-    .crumb { color: #51627c; font-size: 13px; }
-    h1 { margin: 3px 0 0; font-size: 28px; line-height: 1.1; }
-    .user { display: flex; gap: 12px; align-items: center; font-size: 13px; color: #4b5d78; }
-    .badge { border-radius: 999px; background: #e4fff1; color: #047857; padding: 7px 12px; font-weight: 800; }
-    .utc { border-radius: 999px; background: #eaf2ff; color: #1d4ed8; padding: 7px 12px; font-weight: 800; }
-    .content { position: relative; padding: 22px; display: grid; grid-template-columns: minmax(0, 1fr) 390px; gap: 18px; }
-    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 6px 16px rgba(15, 23, 42, .04); }
-    .filter { padding: 18px; }
-    .card-title { font-size: 18px; font-weight: 900; margin-bottom: 3px; }
-    .hint { color: var(--muted); font-size: 13px; }
-    .filter-head { display: flex; justify-content: space-between; gap: 14px; align-items: start; margin-bottom: 18px; }
-    .actions { display: flex; gap: 9px; }
-    .btn { height: 36px; border-radius: 7px; border: 1px solid #bfcee2; background: #fff; color: #334155; padding: 0 13px; font-weight: 800; font-size: 13px; display: inline-flex; align-items: center; justify-content: center; white-space: nowrap; }
-    .btn.primary { border-color: var(--blue); background: var(--blue); color: #fff; }
-    .btn.soft { border-color: #8cc8ff; background: #eef8ff; color: #0369a1; }
-    .btn.small { height: 30px; padding: 0 10px; font-size: 12px; }
-    .btn.icon::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; margin-right: 6px; opacity: .8; }
-    .fields { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
-    label { display: block; color: #52627a; font-size: 12px; font-weight: 800; margin-bottom: 7px; }
-    .input { height: 38px; border: 1px solid #c9d6e8; border-radius: 6px; padding: 0 12px; display: flex; align-items: center; justify-content: space-between; background: #fff; font-size: 13px; }
-    .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 16px 0; }
-    .metric { padding: 14px; }
-    .metric .num { font-size: 24px; font-weight: 900; margin-top: 2px; }
-    .table-card { overflow: hidden; }
-    .table-head { display: flex; justify-content: space-between; align-items: center; padding: 16px 18px; border-bottom: 1px solid var(--line); }
-    .table-title { font-size: 18px; font-weight: 900; }
-    .result { font-size: 12px; color: #4d5d75; }
+    .shell { height: 1080px; display: grid; grid-template-columns: 250px 1fr; }
+    .sidebar { background: var(--side); border-right: 1px solid #253247; padding-top: 54px; }
+    .logo { position: absolute; top: 26px; left: 0; font-weight: 900; font-size: 19px; color: #f5f7fb; }
+    .side-section { color: #b7c4d8; font-size: 14px; height: 48px; display: flex; align-items: center; gap: 8px; padding: 0 14px; }
+    .side-title { color: #6da7ff; padding: 18px 14px 12px; font-size: 14px; }
+    .side-item { height: 52px; display: flex; align-items: center; padding-left: 34px; color: #d6deea; font-size: 14px; }
+    .side-item.active { background: #3b82f6; color: #fff; }
+    .side-group { margin-top: 12px; color: #dbe7f7; height: 44px; display: flex; align-items: center; padding: 0 14px; font-size: 14px; }
+    .main { min-width: 0; }
+    .topbar { height: 80px; background: var(--top); border-bottom: 1px solid #26364f; display: flex; align-items: center; justify-content: flex-end; padding: 0 26px; gap: 18px; }
+    .top-date { font-size: 12px; color: #d8e2ef; }
+    .circle { width: 28px; height: 28px; border: 1px solid #4c5d75; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; color: #d8e2ef; font-size: 13px; }
+    .avatar { width: 32px; height: 32px; border-radius: 50%; background: #6b7280; }
+    .user { font-size: 13px; color: #fff; display: flex; align-items: center; gap: 8px; }
+    .tabs { height: 46px; background: #0f192a; display: flex; align-items: center; gap: 8px; padding: 0 10px; border-bottom: 1px solid #27364b; }
+    .tab { height: 34px; min-width: 78px; padding: 0 20px; border: 1px solid #55657a; color: #dce5f2; display: inline-flex; align-items: center; justify-content: center; font-size: 14px; background: #101b2d; }
+    .tab.active { color: #59a0ff; border-color: #3b82f6; }
+    .content { position: relative; padding: 8px 8px 18px; height: 954px; }
+    .search-bar { height: 78px; background: #101b2d; display: flex; align-items: flex-start; gap: 10px; padding: 12px; margin-bottom: 8px; }
+    .input { width: 126px; height: 32px; border: 1px solid #4a5b72; background: #111827; color: #cfd8e7; padding: 0 12px; display: flex; align-items: center; font-size: 13px; }
+    .input.wide { width: 180px; }
+    .btn { height: 32px; padding: 0 16px; border: 1px solid #53647c; background: #132033; color: #dbe7f7; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; }
+    .btn.primary { background: #2f7df6; border-color: #2f7df6; color: #fff; }
+    .btn.green { background: #52c41a; border-color: #52c41a; color: #fff; }
+    .btn.danger { background: rgba(255, 77, 79, .14); border-color: rgba(255, 77, 79, .25); color: var(--red); }
+    .record-card { height: 72px; background: var(--panel-2); display: flex; align-items: center; justify-content: space-between; padding: 0 20px; margin-bottom: 14px; border-radius: 6px; }
+    .record-left { display: flex; align-items: center; gap: 12px; }
+    .record-icon { width: 36px; height: 36px; border-radius: 8px; background: #0f192a; display: flex; align-items: center; justify-content: center; color: #c4d2e4; }
+    .record-title { font-weight: 800; font-size: 15px; }
+    .record-sub { color: var(--muted); font-size: 13px; margin-top: 3px; }
+    .toolbar { height: 38px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 0; }
+    .toolbar-left, .toolbar-right { display: flex; gap: 8px; align-items: center; }
+    .table-wrap { height: 318px; background: #101b2d; border: 1px solid #2b3a50; overflow: hidden; }
     table { width: 100%; border-collapse: collapse; table-layout: fixed; }
-    th, td { border-bottom: 1px solid #e6edf7; text-align: left; padding: 11px 10px; font-size: 13px; vertical-align: middle; }
-    th { color: #52627a; background: #f8fbff; font-weight: 900; }
-    tr:last-child td { border-bottom: 0; }
-    .link { color: #1d4ed8; font-weight: 900; }
-    .status { display: inline-flex; border-radius: 999px; padding: 4px 9px; font-size: 12px; font-weight: 900; }
-    .ok { color: #047857; background: var(--green-soft); }
-    .limit { color: var(--amber); background: var(--amber-soft); }
-    .op-buttons { display: flex; gap: 6px; flex-wrap: nowrap; }
-    .side { overflow: hidden; }
-    .side-head { padding: 18px; border-bottom: 1px solid var(--line); }
-    .side-body { padding: 16px 18px; }
-    .kv { display: grid; grid-template-columns: 112px 1fr; gap: 10px; font-size: 13px; margin-bottom: 10px; }
-    .kv span:first-child { color: #52627a; font-weight: 800; }
-    .kv span:last-child { font-weight: 900; }
-    .entry-actions { display: flex; gap: 8px; margin: 10px 0 18px; flex-wrap: wrap; }
-    .audit { border: 1px solid #f0c36b; background: #fff7e6; color: #92400e; border-radius: 7px; padding: 12px; font-size: 12px; line-height: 1.5; }
-    .drawer { position: absolute; width: 480px; background: #fff; border: 2px solid #76b7ff; border-radius: 8px; box-shadow: 0 20px 50px rgba(15, 23, 42, .22); overflow: hidden; }
-    .drawer.bet { left: 272px; top: 700px; }
-    .drawer.wallet { left: 770px; top: 700px; border-color: #48d1a0; }
-    .drawer-head { height: 40px; display: flex; justify-content: space-between; align-items: center; padding: 0 12px; border-bottom: 1px solid var(--line); background: #f8fbff; }
-    .drawer-title { font-size: 15px; font-weight: 900; }
-    .close { width: 28px; height: 28px; border-radius: 50%; border: 1px solid #c6d4e6; display: flex; align-items: center; justify-content: center; color: #64748b; font-weight: 900; }
-    .drawer-body { padding: 9px 12px 11px; }
-    .drawer-note { font-size: 11px; color: var(--muted); margin-bottom: 7px; }
-    .mini-table th, .mini-table td { padding: 5px 4px; font-size: 10px; }
-    .money-plus { color: #047857; font-weight: 900; }
-    .money-minus { color: #b91c1c; font-weight: 900; }
-    .annotation-strip { position: absolute; left: 272px; right: 22px; top: 672px; display: flex; gap: 10px; align-items: center; color: #78350f; font-size: 12px; font-weight: 900; }
-    .annotation-strip span { border: 1px solid #f59e0b; background: #fff7ed; border-radius: 999px; padding: 6px 10px; box-shadow: 0 8px 20px rgba(146, 64, 14, .12); }
-    .footer { position: absolute; left: 272px; bottom: 8px; color: #75859d; font-size: 12px; }
+    th, td { border-right: 1px solid #2b3a50; border-bottom: 1px solid #2b3a50; padding: 0 12px; height: 50px; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    th { height: 56px; background: #0e1828; color: #f1f5fb; font-weight: 800; }
+    td { color: #d7e0ee; }
+    .check { width: 14px; height: 14px; border: 1px solid #4d5d73; display: inline-block; }
+    .link-btn { border: 0; background: transparent; padding: 0 4px; display: inline-flex; align-items: center; gap: 4px; font-size: 13px; cursor: default; }
+    .link-btn.blue { color: #409eff; }
+    .link-btn.green { color: var(--green); }
+    .link-btn.red { color: var(--red); }
+    .link-btn::before { content: ""; width: 12px; height: 12px; border-radius: 50%; border: 1px solid currentColor; display: inline-block; }
+    .tag { border-radius: 3px; padding: 2px 6px; font-size: 12px; }
+    .tag.ok { color: #b7f7c1; background: rgba(82, 196, 26, .18); }
+    .tag.limit { color: #ffdca8; background: rgba(214, 162, 63, .18); }
+    .pager { height: 44px; display: flex; align-items: center; justify-content: flex-end; gap: 10px; color: #d7e0ee; font-size: 13px; }
+    .page-box { height: 32px; min-width: 34px; border: 1px solid #3d4c63; display: inline-flex; align-items: center; justify-content: center; color: #aebbd0; }
+    .page-box.active { background: #3b82f6; color: #fff; border-color: #3b82f6; }
+    .dialog-showcase-title { height: 30px; display: flex; align-items: center; gap: 12px; color: #ffdca8; font-size: 13px; padding-left: 342px; }
+    .dialog-showcase-title span { border: 1px solid rgba(214, 162, 63, .5); background: rgba(214, 162, 63, .12); padding: 5px 10px; border-radius: 3px; }
+    .dialog-layer { margin-left: 342px; margin-right: 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 22px; pointer-events: none; }
+    .dialog { background: #101b2d; border: 1px solid #39506c; box-shadow: 0 16px 42px rgba(0,0,0,.34); }
+    .dialog.bet { border-color: #3b82f6; }
+    .dialog.wallet { border-color: #52c41a; }
+    .dialog-head { height: 46px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px; border-bottom: 1px solid #2f4057; background: #111d31; }
+    .dialog-title { font-size: 15px; font-weight: 900; color: #f1f5fb; }
+    .close { color: #aebbd0; font-size: 18px; }
+    .dialog-body { padding: 12px 14px 14px; }
+    .dialog-note { color: #9aa8ba; font-size: 12px; margin-bottom: 10px; }
+    .dialog-grid { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 12px; align-items: stretch; }
+    .mini th { height: 38px; background: #0e1828; }
+    .mini td { height: 42px; }
+    .sub-dialog { border: 1px solid #3a4d67; background: #0e1828; min-height: 122px; }
+    .sub-head { height: 36px; display: flex; align-items: center; justify-content: space-between; padding: 0 10px; border-bottom: 1px solid #2f4057; font-size: 13px; font-weight: 800; color: #f1f5fb; }
+    .sub-body { padding: 10px; color: #b8c6d9; font-size: 12px; line-height: 1.65; }
+    .sub-action { margin-top: 8px; display: inline-flex; align-items: center; height: 26px; padding: 0 10px; border: 1px solid #3b82f6; color: #409eff; background: rgba(59, 130, 246, .08); }
+    .amount-plus { color: #52c41a; font-weight: 800; }
+    .amount-minus { color: #ff6b6b; font-weight: 800; }
   </style>
 </head>
 <body>
-  <div class="app">
+  <div class="logo">ADMIN</div>
+  <div class="shell">
     <aside class="sidebar">
-      <div class="brand">PP 新架构内部后台</div>
-      <div class="phase">Phase 1 · 排查闭环原型</div>
-      <div class="nav-title">P0 排查闭环</div>
-      <div class="nav-item dim">排查总览</div>
-      <div class="nav-item active">搜索玩家</div>
-      <div class="nav-item dim">游戏/局详情</div>
-      <div class="nav-item dim">注单结果</div>
-      <div class="nav-item dim">钱包交易/结算异常</div>
-      <div class="nav-item dim">大厅/赌桌只读</div>
-      <div class="nav-item dim">审计/导出记录</div>
-      <div class="nav-title">后续能力</div>
-      <div class="nav-item dim">免费筹码</div>
-      <div class="nav-item dim">对冲投注</div>
-      <div class="nav-item dim">限额群组</div>
+      <div class="side-section">▥ 下游管理</div>
+      <div class="side-title">游戏数据</div>
+      <div class="side-item">游戏用户</div>
+      <div class="side-item">游戏流水</div>
+      <div class="side-item">游戏开奖记录</div>
+      <div class="side-item active">搜索玩家</div>
+      <div class="side-item">钱包流水</div>
+      <div class="side-item">游戏局归档</div>
+      <div class="side-group">上游管理</div>
+      <div class="side-group">用户信息</div>
+      <div class="side-group">超级管理员</div>
+      <div class="side-group">配置管理</div>
+      <div class="side-group">仪表盘</div>
     </aside>
     <main class="main">
-      <header class="topbar">
-        <div>
-          <div class="crumb">内部后台 / 玩家排查</div>
-          <h1>搜索玩家</h1>
-        </div>
-        <div class="user"><span>内部运营 ro954</span><span class="badge">只读排查</span><span class="utc">UTC+8</span></div>
-      </header>
+      <div class="topbar">
+        <span class="top-date">2026/05/09 13:28:00</span>
+        <span class="circle">≡</span><span class="circle">⌕</span><span class="circle">⚙</span><span class="circle">↻</span><span class="circle">☼</span>
+        <span class="avatar"></span><span class="user">robert⌄</span>
+      </div>
+      <nav class="tabs">
+        <span class="tab">首页</span><span class="tab">用户管理</span><span class="tab">游戏用户</span><span class="tab">商户管理</span><span class="tab">Demo玩家</span><span class="tab">组织管理</span><span class="tab">代理管理</span><span class="tab">Demo交易流水</span><span class="tab">Wallet流水</span><span class="tab">ProviderAPI 入站日志</span><span class="tab active">搜索玩家 ×</span>
+      </nav>
       <section class="content">
-        <div>
-          <div class="card filter">
-            <div class="filter-head">
-              <div>
-                <div class="card-title">筛选玩家</div>
-                <div class="hint">先用登录 ID / 玩家 ID 定位，再跳转注单与钱包流水</div>
+        <div class="search-bar">
+          <div class="input wide">商户/赌场：PP TH043</div>
+          <div class="input wide">登录ID：player_839201</div>
+          <div class="input">玩家ID</div>
+          <button class="btn primary">⌕ 搜索</button>
+          <button class="btn">↻ 重置</button>
+        </div>
+        <div class="record-card">
+          <div class="record-left">
+            <div class="record-icon">▣</div>
+            <div><div class="record-title">玩家排查入口</div><div class="record-sub">操作栏直接打开注单与钱包流水，保持当前筛选条件</div></div>
+          </div>
+          <button class="btn primary">+ 导出当前筛选</button>
+        </div>
+        <div class="toolbar">
+          <div class="toolbar-left"><button class="btn danger">♙ 批量删除</button><button class="btn green">↑ 上传自定义局</button></div>
+          <div class="toolbar-right"><button class="btn primary">⚙</button><button class="btn primary">↓ 导出⌄</button></div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th style="width: 42px;"><span class="check"></span></th><th style="width: 88px;">ID</th><th style="width: 150px;">登录 ID</th><th style="width: 130px;">玩家 ID</th><th style="width: 90px;">币种</th><th style="width: 110px;">用户类型</th><th style="width: 92px;">状态</th><th style="width: 138px;">最近进入</th><th style="width: 138px;">最近下注</th><th style="width: 310px;">操作</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="check"></span></td><td>839201</td><td>player_839201</td><td>U-928301</td><td>THB</td><td>普通玩家</td><td><span class="tag ok">正常</span></td><td>2026-05-09 13:21</td><td>2026-05-09 13:25</td><td><button class="link-btn blue">查看</button><button class="link-btn blue">注单</button><button class="link-btn green">流水</button><button class="link-btn red">删除</button></td></tr>
+              <tr><td><span class="check"></span></td><td>839202</td><td>player_779021</td><td>U-920019</td><td>THB</td><td>测试账号</td><td><span class="tag limit">受限</span></td><td>2026-05-09 12:44</td><td>2026-05-09 12:50</td><td><button class="link-btn blue">查看</button><button class="link-btn blue">注单</button><button class="link-btn green">流水</button><button class="link-btn red">删除</button></td></tr>
+              <tr><td><span class="check"></span></td><td>839203</td><td>player_654221</td><td>U-884102</td><td>THB</td><td>普通玩家</td><td><span class="tag ok">正常</span></td><td>2026-05-09 11:40</td><td>2026-05-09 11:48</td><td><button class="link-btn blue">查看</button><button class="link-btn blue">注单</button><button class="link-btn green">流水</button><button class="link-btn red">删除</button></td></tr>
+              <tr><td><span class="check"></span></td><td>839204</td><td>player_442009</td><td>U-811200</td><td>BRL</td><td>普通玩家</td><td><span class="tag ok">正常</span></td><td>2026-05-09 10:16</td><td>2026-05-09 10:20</td><td><button class="link-btn blue">查看</button><button class="link-btn blue">注单</button><button class="link-btn green">流水</button><button class="link-btn red">删除</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pager"><span>共 12 条</span><span class="page-box">‹</span><span class="page-box active">1</span><span class="page-box">2</span><span class="page-box">›</span><span>前往</span><span class="page-box" style="width:58px;">1</span><span>页</span></div>
+        <div class="dialog-showcase-title"><span>弹窗状态示意：不是新风格，只表达点击“注单 / 流水”后的现后台 el-dialog 层级</span><span>二级按钮必须打开详情弹窗/抽屉，并能回到当前玩家上下文</span></div>
+        <div class="dialog-layer">
+          <div class="dialog bet">
+            <div class="dialog-head"><span class="dialog-title">玩家注单弹窗 · player_839201</span><span class="close">×</span></div>
+            <div class="dialog-body">
+              <div class="dialog-note">从操作栏“注单”打开，默认最近 20 条；二级动作进入 #108 注单详情。</div>
+              <div class="dialog-grid">
+                <table class="mini"><thead><tr><th>注单 ID</th><th>游戏/回合</th><th>投注内容</th><th>投注</th><th>派奖</th><th>状态</th><th>二级动作</th></tr></thead><tbody>
+                  <tr><td>B-839201-01</td><td>G-18421 / R-7781</td><td>Roulette · Red</td><td>100.00 THB</td><td class="amount-plus">200.00</td><td><span class="tag ok">已结算</span></td><td><button class="link-btn blue">注单详情</button></td></tr>
+                  <tr><td>B-839201-02</td><td>G-18421 / R-7782</td><td>Baccarat · Banker</td><td>50.00 THB</td><td>0.00</td><td><span class="tag limit">退款中</span></td><td><button class="link-btn blue">注单详情</button></td></tr>
+                </tbody></table>
+                <div class="sub-dialog">
+                  <div class="sub-head"><span>二级弹窗：注单详情</span><span>×</span></div>
+                  <div class="sub-body">
+                    展示注单完整明细、结算状态、回合号与钱包交易关联；关闭后回到本玩家注单弹窗。
+                    <div class="sub-action">返回注单列表</div>
+                  </div>
+                </div>
               </div>
-              <div class="actions"><button class="btn">重置</button><button class="btn primary">查询</button><button class="btn">导出</button></div>
-            </div>
-            <div class="fields">
-              <div><label>商户 / 赌场</label><div class="input">PP TH043 <span>⌄</span></div></div>
-              <div><label>登录 ID / 用户 ID</label><div class="input">player_839201</div></div>
-              <div><label>玩家 ID</label><div class="input">输入玩家 ID</div></div>
-              <div><label>精准匹配</label><div class="input">开启 <span>⌄</span></div></div>
-              <div><label>用户类型</label><div class="input">普通玩家 <span>⌄</span></div></div>
-              <div><label>状态</label><div class="input">全部 <span>⌄</span></div></div>
-              <div><label>最近进入时间</label><div class="input">2026-05-08 00:00 ~ 23:59</div></div>
-              <div><label>币种</label><div class="input">THB <span>⌄</span></div></div>
             </div>
           </div>
-          <div class="metrics">
-            <div class="card metric"><div class="hint">匹配玩家</div><div class="num">12</div></div>
-            <div class="card metric"><div class="hint">今日下注玩家</div><div class="num">8</div></div>
-            <div class="card metric"><div class="hint">有异常交易</div><div class="num" style="color: var(--red);">1</div></div>
-            <div class="card metric"><div class="hint">可导出字段</div><div class="num">9</div></div>
-          </div>
-          <div class="card table-card">
-            <div class="table-head"><div class="table-title">玩家列表</div><div class="result"><b>12</b> 条结果 · 已按商户权限过滤</div></div>
-            <table>
-              <thead><tr><th style="width: 110px;">商户</th><th style="width: 150px;">登录 ID</th><th style="width: 118px;">玩家 ID</th><th style="width: 70px;">币种</th><th style="width: 92px;">用户类型</th><th style="width: 82px;">状态</th><th style="width: 86px;">最近进入</th><th style="width: 86px;">最近下注</th><th style="width: 190px;">操作</th></tr></thead>
-              <tbody>
-                <tr><td>PP TH043</td><td class="link">player_839201</td><td>U-928301</td><td>THB</td><td>普通玩家</td><td><span class="status ok">正常</span></td><td>16:21:10</td><td>16:25:44</td><td><div class="op-buttons"><button class="btn small soft icon">注单</button><button class="btn small soft icon">流水</button><button class="btn small">详情</button></div></td></tr>
-                <tr><td>PP TH043</td><td>player_779021</td><td>U-920019</td><td>THB</td><td>测试账号</td><td><span class="status limit">受限</span></td><td>15:12:03</td><td>15:18:20</td><td><div class="op-buttons"><button class="btn small soft icon">注单</button><button class="btn small soft icon">流水</button><button class="btn small">详情</button></div></td></tr>
-                <tr><td>PP TH043</td><td>player_654221</td><td>U-884102</td><td>THB</td><td>普通玩家</td><td><span class="status ok">正常</span></td><td>14:02:18</td><td>14:06:11</td><td><div class="op-buttons"><button class="btn small soft icon">注单</button><button class="btn small soft icon">流水</button><button class="btn small">详情</button></div></td></tr>
-              </tbody>
-            </table>
+          <div class="dialog wallet">
+            <div class="dialog-head"><span class="dialog-title">钱包流水弹窗 · U-928301</span><span class="close">×</span></div>
+            <div class="dialog-body">
+              <div class="dialog-note">从操作栏“流水”打开，只读展示交易链路；二级动作进入 #109 交易详情。</div>
+              <div class="dialog-grid">
+                <table class="mini"><thead><tr><th>交易 ID</th><th>类型</th><th>金额</th><th>前余额</th><th>后余额</th><th>状态</th><th>二级动作</th></tr></thead><tbody>
+                  <tr><td>TX-8891201</td><td>投注扣款</td><td class="amount-minus">-100.00 THB</td><td>980.00</td><td>880.00</td><td><span class="tag ok">成功</span></td><td><button class="link-btn blue">交易详情</button></td></tr>
+                  <tr><td>TX-8891202</td><td>派奖入账</td><td class="amount-plus">+200.00 THB</td><td>880.00</td><td>1080.00</td><td><span class="tag ok">成功</span></td><td><button class="link-btn blue">交易详情</button></td></tr>
+                </tbody></table>
+                <div class="sub-dialog">
+                  <div class="sub-head"><span>二级弹窗：交易详情</span><span>×</span></div>
+                  <div class="sub-body">
+                    展示交易来源、钱包前后余额、关联注单/回合与异常原因；关闭后回到钱包流水弹窗。
+                    <div class="sub-action">返回流水列表</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <aside class="card side">
-          <div class="side-head">
-            <div class="card-title">玩家详情：player_839201</div>
-            <div class="hint">右侧详情抽屉：只读查看 + 关联跳转</div>
-          </div>
-          <div class="side-body">
-            <div class="kv"><span>商户/赌场</span><span>PP TH043</span></div>
-            <div class="kv"><span>玩家 ID</span><span>U-928301</span></div>
-            <div class="kv"><span>币种</span><span>THB</span></div>
-            <div class="kv"><span>用户类型</span><span>普通玩家</span></div>
-            <div class="kv"><span>状态</span><span>正常</span></div>
-            <div class="kv"><span>最近游戏 ID</span><span>G-20260508-18421</span></div>
-            <div class="kv"><span>最近交易 ID</span><span>TX-8891201</span></div>
-            <h3>关联入口</h3>
-            <div class="entry-actions">
-              <button class="btn soft icon">查看玩家注单</button>
-              <button class="btn soft icon">查看钱包流水</button>
-              <button class="btn">复制玩家 ID</button>
-            </div>
-            <h3>审计提示</h3>
-            <div class="audit">查看玩家详情、注单弹窗、钱包流水弹窗、导出玩家列表均写入审计日志；普通角色只看脱敏玩家信息。</div>
-          </div>
-        </aside>
-        <div class="annotation-strip">
-          <span>标注 A：操作栏必须是按钮，不是普通文字</span>
-          <span>标注 B：点击后打开注单/流水弹窗；弹窗内二级动作规则写入 Issue</span>
-        </div>
-        <section class="drawer bet">
-          <div class="drawer-head"><div class="drawer-title">玩家注单弹窗 · player_839201</div><div class="close">×</div></div>
-          <div class="drawer-body">
-            <div class="drawer-note">从操作栏“注单”或右侧“查看玩家注单”打开；默认展示最近 20 条，可跳转注单详情。</div>
-            <table class="mini-table"><thead><tr><th>注单 ID</th><th>游戏/回合</th><th>投注内容</th><th>投注</th><th>派奖</th><th>状态</th><th>二级动作</th></tr></thead><tbody>
-              <tr><td>B-839201-01</td><td>G-18421 / R-7781</td><td>Roulette · Red</td><td>100.00 THB</td><td class="money-plus">200.00</td><td><span class="status ok">已结算</span></td><td><button class="btn small">注单详情</button></td></tr>
-              <tr><td>B-839201-02</td><td>G-18421 / R-7782</td><td>Baccarat · Banker</td><td>50.00 THB</td><td>0.00</td><td><span class="status limit">退款中</span></td><td><button class="btn small">注单详情</button></td></tr>
-            </tbody></table>
-          </div>
-        </section>
-        <section class="drawer wallet">
-          <div class="drawer-head"><div class="drawer-title">钱包流水弹窗 · U-928301</div><div class="close">×</div></div>
-          <div class="drawer-body">
-            <div class="drawer-note">从操作栏“流水”或右侧“查看钱包流水”打开；只读展示交易链路，可跳转结算异常。</div>
-            <table class="mini-table"><thead><tr><th>交易 ID</th><th>类型</th><th>金额</th><th>前余额</th><th>后余额</th><th>状态</th><th>二级动作</th></tr></thead><tbody>
-              <tr><td>TX-8891201</td><td>投注扣款</td><td class="money-minus">-100.00 THB</td><td>980.00</td><td>880.00</td><td><span class="status ok">成功</span></td><td><button class="btn small">交易详情</button></td></tr>
-              <tr><td>TX-8891202</td><td>派奖入账</td><td class="money-plus">+200.00 THB</td><td>880.00</td><td>1080.00</td><td><span class="status ok">成功</span></td><td><button class="btn small">交易详情</button></td></tr>
-            </tbody></table>
-          </div>
-        </section>
-        <div class="footer">页面原型 · 非最终 UI · 用于需求评审 | #106 搜索玩家 v2</div>
       </section>
     </main>
   </div>
