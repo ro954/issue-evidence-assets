@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#f8fafc"/>
+  <rect x="70" y="58" width="1260" height="704" rx="22" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="110" y="125" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#0f172a">Goplus Pre 新增商户配置清单</text>
+  <text x="110" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#475569">用途：请为 pre 环境新增 4 个 goplus 商户；Secret Key 仅展示指纹，完整密钥走安全渠道交付。</text>
+  <rect x="110" y="220" width="1180" height="70" rx="10" fill="#e2e8f0"/>
+  <text x="140" y="264" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a">商户</text>
+  <text x="390" y="264" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Secure Login</text>
+  <text x="700" y="264" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Secret Key 指纹</text>
+  <text x="1050" y="264" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f172a">处理</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#0f172a">
+    <rect x="110" y="306" width="1180" height="86" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="140" y="359">goplus_pre_11</text>
+    <text x="390" y="359">op_d4dc32fd</text>
+    <text x="700" y="359">252063...f2891</text>
+    <text x="1050" y="359">新增 / 联调验证</text>
+    <rect x="110" y="408" width="1180" height="86" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="140" y="461">goplus_pre_12</text>
+    <text x="390" y="461">op_b5269786</text>
+    <text x="700" y="461">e23cd5...d818e</text>
+    <text x="1050" y="461">新增 / 联调验证</text>
+    <rect x="110" y="510" width="1180" height="86" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="140" y="563">goplus_pre_13</text>
+    <text x="390" y="563">op_3a782ffd</text>
+    <text x="700" y="563">be3129...b622</text>
+    <text x="1050" y="563">新增 / 联调验证</text>
+    <rect x="110" y="612" width="1180" height="86" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="140" y="665">goplus_pre_14</text>
+    <text x="390" y="665">op_0e4181d1</text>
+    <text x="700" y="665">abeb81...6875</text>
+    <text x="1050" y="665">新增 / 联调验证</text>
+  </g>
+  <text x="110" y="735" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#64748b">验收重点：4 个商户均可在 pre 环境完成登录鉴权、请求签名校验、正常调用链路验证。</text>
+</svg>
