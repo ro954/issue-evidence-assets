@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1050" viewBox="0 0 1680 1050">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#0f172a" flood-opacity=".12"/>
+    </filter>
+    <style>
+      text{font-family:Arial,sans-serif;fill:#0f172a}
+      .muted{fill:#64748b}.tiny{font-size:20px}.small{font-size:24px}.mid{font-size:30px}.big{font-size:40px;font-weight:800}
+      .label{font-size:23px;font-weight:700}.call{font-size:24px;font-weight:800;fill:#fff}
+      .line{stroke:#dbe6f3;stroke-width:2}.blue{fill:#2563eb}.green{fill:#0f9f6e}.orange{fill:#f97316}.red{fill:#dc2626}
+    </style>
+  </defs>
+  <rect width="1680" height="1050" fill="#f6f9fc"/>
+  <rect x="42" y="36" width="1596" height="978" rx="26" fill="#fff" filter="url(#shadow)"/>
+  <text x="76" y="96" class="big">一期真人游戏记录列表 - 低保真标注原型</text>
+  <text x="76" y="136" class="small muted">用于 #117：只查真人记录，按玩家 / 桌台 / 局号 / 状态定位一局，并串到局详情、注单、钱包。</text>
+
+  <rect x="76" y="170" width="1528" height="170" rx="18" fill="#eef6ff" stroke="#bfdbfe"/>
+  <circle cx="106" cy="200" r="24" class="blue"/><text x="98" y="209" class="call">1</text>
+  <text x="142" y="207" class="label">查询区：限定真人游戏范围</text>
+  <g class="small">
+    <rect x="104" y="234" width="155" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="124" y="270">游戏</text>
+    <rect x="274" y="234" width="155" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="294" y="270">桌台</text>
+    <rect x="444" y="234" width="175" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="464" y="270">玩家 / ID</text>
+    <rect x="634" y="234" width="175" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="654" y="270">局号 / gameId</text>
+    <rect x="824" y="234" width="170" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="844" y="270">tableId</text>
+    <rect x="1009" y="234" width="160" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="1029" y="270">状态</text>
+    <rect x="1184" y="234" width="210" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="1204" y="270">时间范围</text>
+    <rect x="1416" y="234" width="86" height="56" rx="10" fill="#2563eb"/><text x="1435" y="270" fill="#fff">查询</text>
+    <rect x="1518" y="234" width="70" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="1530" y="270">重置</text>
+  </g>
+
+  <rect x="76" y="376" width="1528" height="420" rx="18" fill="#fff" stroke="#dbe6f3"/>
+  <circle cx="106" cy="406" r="24" class="green"/><text x="98" y="415" class="call">2</text>
+  <text x="142" y="413" class="label">列表区：真人局核心字段与状态</text>
+  <line x1="104" y1="456" x2="1576" y2="456" class="line"/>
+  <g class="small" font-weight="700">
+    <text x="106" y="438">游戏</text><text x="242" y="438">桌台</text><text x="386" y="438">局号</text><text x="566" y="438">玩家数</text>
+    <text x="696" y="438">投注 / 派奖</text><text x="900" y="438">局状态</text><text x="1056" y="438">结算状态</text><text x="1228" y="438">更新时间</text><text x="1420" y="438">操作</text>
+  </g>
+  <g class="small">
+    <text x="106" y="504">Roulette</text><text x="242" y="504">T-88</text><text x="386" y="504">G2026051101</text><text x="566" y="504">18</text>
+    <text x="696" y="504">THB 1,240 / 1,920</text><rect x="900" y="476" width="96" height="38" rx="19" fill="#dcfce7"/><text x="918" y="503" fill="#15803d">已结算</text>
+    <rect x="1056" y="476" width="110" height="38" rx="19" fill="#dcfce7"/><text x="1075" y="503" fill="#15803d">钱包成功</text><text x="1228" y="504">14:22:31</text>
+    <rect x="1412" y="474" width="80" height="42" rx="9" fill="#eff6ff" stroke="#93c5fd"/><text x="1430" y="503" fill="#1d4ed8">详情</text>
+    <rect x="1502" y="474" width="70" height="42" rx="9" fill="#fff7ed" stroke="#fdba74"/><text x="1519" y="503" fill="#c2410c">注单</text>
+    <line x1="104" y1="536" x2="1576" y2="536" class="line"/>
+    <text x="106" y="588">Baccarat</text><text x="242" y="588">B-12</text><text x="386" y="588">G2026051102</text><text x="566" y="588">6</text>
+    <text x="696" y="588">BRL 330 / -</text><rect x="900" y="560" width="96" height="38" rx="19" fill="#fef3c7"/><text x="918" y="587" fill="#b45309">进行中</text>
+    <rect x="1056" y="560" width="110" height="38" rx="19" fill="#f1f5f9"/><text x="1075" y="587" fill="#475569">未结算</text><text x="1228" y="588">14:24:09</text>
+    <rect x="1412" y="558" width="80" height="42" rx="9" fill="#eff6ff" stroke="#93c5fd"/><text x="1430" y="587" fill="#1d4ed8">详情</text>
+    <rect x="1502" y="558" width="70" height="42" rx="9" fill="#fff7ed" stroke="#fdba74"/><text x="1519" y="587" fill="#c2410c">注单</text>
+    <line x1="104" y1="620" x2="1576" y2="620" class="line"/>
+    <text x="106" y="672">Wheel</text><text x="242" y="672">M-03</text><text x="386" y="672">G2026051103</text><text x="566" y="672">11</text>
+    <text x="696" y="672">USDT 88 / 0</text><rect x="900" y="644" width="96" height="38" rx="19" fill="#fee2e2"/><text x="918" y="671" fill="#b91c1c">异常</text>
+    <rect x="1056" y="644" width="126" height="38" rx="19" fill="#fee2e2"/><text x="1075" y="671" fill="#b91c1c">结算异常</text><text x="1228" y="672">14:25:16</text>
+    <rect x="1412" y="642" width="80" height="42" rx="9" fill="#eff6ff" stroke="#93c5fd"/><text x="1430" y="671" fill="#1d4ed8">详情</text>
+    <rect x="1502" y="642" width="70" height="42" rx="9" fill="#fff7ed" stroke="#fdba74"/><text x="1519" y="671" fill="#c2410c">注单</text>
+  </g>
+  <circle cx="1376" cy="720" r="24" class="orange"/><text x="1368" y="729" class="call">3</text>
+  <text x="1412" y="728" class="label">操作入口</text>
+  <text x="1412" y="762" class="tiny muted">详情 / 注单 / 钱包</text>
+
+  <rect x="76" y="830" width="730" height="128" rx="18" fill="#f8fafc" stroke="#dbe6f3"/>
+  <circle cx="106" cy="860" r="24" class="red"/><text x="98" y="869" class="call">4</text>
+  <text x="142" y="868" class="label">权限与范围</text>
+  <text x="104" y="914" class="small muted">商户 / 代理 / 组织隔离；接口、导出、详情跳转都要后端拦截。</text>
+
+  <rect x="852" y="830" width="752" height="128" rx="18" fill="#f8fafc" stroke="#dbe6f3"/>
+  <circle cx="882" cy="860" r="24" fill="#7c3aed"/><text x="874" y="869" class="call">5</text>
+  <text x="918" y="868" class="label">状态口径</text>
+  <text x="880" y="914" class="small muted">状态来源可追溯，不能只靠前端文案或颜色展示。</text>
+</svg>

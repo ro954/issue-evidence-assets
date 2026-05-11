@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1050" viewBox="0 0 1680 1050">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#0f172a" flood-opacity=".12"/>
+    </filter>
+    <style>
+      text{font-family:Arial,sans-serif;fill:#0f172a}
+      .muted{fill:#64748b}.tiny{font-size:20px}.small{font-size:24px}.mid{font-size:30px}.big{font-size:40px;font-weight:800}
+      .label{font-size:23px;font-weight:700}.call{font-size:24px;font-weight:800;fill:#fff}
+      .line{stroke:#dbe6f3;stroke-width:2}.blue{fill:#2563eb}.green{fill:#0f9f6e}.orange{fill:#f97316}.red{fill:#dc2626}
+    </style>
+  </defs>
+  <rect width="1680" height="1050" fill="#f6f9fc"/>
+  <rect x="42" y="36" width="1596" height="978" rx="26" fill="#fff" filter="url(#shadow)"/>
+  <text x="76" y="96" class="big">一期 Session / Token 异常排查 - 低保真标注原型</text>
+  <text x="76" y="136" class="small muted">用于 #121：查 SessionExpired、InvalidToken、上游断连、home_url 跳转，并关联玩家、局、注单、钱包。</text>
+
+  <rect x="76" y="170" width="1528" height="160" rx="18" fill="#fff7ed" stroke="#fed7aa"/>
+  <circle cx="106" cy="200" r="24" class="orange"/><text x="98" y="209" class="call">1</text>
+  <text x="142" y="207" class="label">查询区：按会话与异常类型定位</text>
+  <g class="small">
+    <rect x="104" y="234" width="160" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="124" y="270">玩家</text>
+    <rect x="279" y="234" width="160" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="299" y="270">商户</text>
+    <rect x="454" y="234" width="160" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="474" y="270">游戏 / 桌台</text>
+    <rect x="629" y="234" width="190" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="649" y="270">Session ID</text>
+    <rect x="834" y="234" width="230" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="854" y="270">异常类型</text>
+    <rect x="1079" y="234" width="220" height="56" rx="10" fill="#fff" stroke="#cbd5e1"/><text x="1099" y="270">时间范围</text>
+    <rect x="1320" y="234" width="96" height="56" rx="10" fill="#f97316"/><text x="1342" y="270" fill="#fff">查询</text>
+  </g>
+
+  <rect x="76" y="370" width="936" height="430" rx="18" fill="#fff" stroke="#dbe6f3"/>
+  <circle cx="106" cy="400" r="24" class="red"/><text x="98" y="409" class="call">2</text>
+  <text x="142" y="407" class="label">异常列表：清楚区分来源和结果</text>
+  <line x1="104" y1="456" x2="984" y2="456" class="line"/>
+  <g class="small" font-weight="700">
+    <text x="104" y="438">异常类型</text><text x="306" y="438">玩家</text><text x="444" y="438">游戏 / 桌台</text><text x="632" y="438">发生时间</text><text x="802" y="438">处理结果</text>
+  </g>
+  <g class="small">
+    <rect x="104" y="478" width="158" height="38" rx="19" fill="#fee2e2"/><text x="122" y="505" fill="#b91c1c">SessionExpired</text>
+    <text x="306" y="506">P100839</text><text x="444" y="506">Roulette / R-8</text><text x="632" y="506">14:18:22</text><text x="802" y="506">跳 home_url</text>
+    <line x1="104" y1="536" x2="984" y2="536" class="line"/>
+    <rect x="104" y="558" width="134" height="38" rx="19" fill="#ffedd5"/><text x="122" y="585" fill="#c2410c">InvalidToken</text>
+    <text x="306" y="586">P100931</text><text x="444" y="586">Baccarat / B-2</text><text x="632" y="586">14:21:03</text><text x="802" y="586">拒绝会话</text>
+    <line x1="104" y1="616" x2="984" y2="616" class="line"/>
+    <rect x="104" y="638" width="130" height="38" rx="19" fill="#e0e7ff"/><text x="122" y="665" fill="#3730a3">上游断连</text>
+    <text x="306" y="666">P100955</text><text x="444" y="666">Mega Wheel</text><text x="632" y="666">14:24:44</text><text x="802" y="666">等待恢复</text>
+  </g>
+
+  <rect x="1046" y="370" width="558" height="430" rx="18" fill="#f8fafc" stroke="#dbe6f3"/>
+  <circle cx="1076" cy="400" r="24" class="blue"/><text x="1068" y="409" class="call">3</text>
+  <text x="1112" y="407" class="label">详情区：会话链路与关联对象</text>
+  <g class="small">
+    <text x="1080" y="466" class="muted">触发来源</text><text x="1240" y="466">PP terminateSession / 钱包返回</text>
+    <text x="1080" y="516" class="muted">客户端语义</text><text x="1240" y="516">弹窗 / 自动跳转 / 无感刷新</text>
+    <text x="1080" y="566" class="muted">home_url</text><text x="1240" y="566">已配置 / 未配置 / fallback</text>
+    <text x="1080" y="616" class="muted">关联对象</text><text x="1240" y="616">玩家、局、注单、钱包</text>
+    <text x="1080" y="666" class="muted">排查 ID</text><text x="1240" y="666">Session / gameId / tableId</text>
+    <rect x="1080" y="706" width="116" height="48" rx="10" fill="#eff6ff" stroke="#93c5fd"/><text x="1100" y="738" fill="#1d4ed8">查看局</text>
+    <rect x="1212" y="706" width="116" height="48" rx="10" fill="#fff7ed" stroke="#fdba74"/><text x="1232" y="738" fill="#c2410c">看注单</text>
+    <rect x="1344" y="706" width="116" height="48" rx="10" fill="#ecfdf5" stroke="#86efac"/><text x="1364" y="738" fill="#047857">看钱包</text>
+  </g>
+
+  <rect x="76" y="834" width="730" height="128" rx="18" fill="#f8fafc" stroke="#dbe6f3"/>
+  <circle cx="106" cy="864" r="24" class="green"/><text x="98" y="873" class="call">4</text>
+  <text x="142" y="872" class="label">脱敏与权限</text>
+  <text x="104" y="918" class="small muted">Token、签名、密钥、完整请求头不明文展示。</text>
+
+  <rect x="852" y="834" width="752" height="128" rx="18" fill="#f8fafc" stroke="#dbe6f3"/>
+  <circle cx="882" cy="864" r="24" fill="#7c3aed"/><text x="874" y="873" class="call">5</text>
+  <text x="918" y="872" class="label">只读与审计</text>
+  <text x="880" y="918" class="small muted">详情、复制、跳转都审计；一期不改 token、不踢人。</text>
+</svg>
