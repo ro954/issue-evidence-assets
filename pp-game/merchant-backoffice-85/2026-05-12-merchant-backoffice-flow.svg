@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .panel { fill: #ffffff; stroke: #d7deea; stroke-width: 2; rx: 10; }
+      .title { font: 700 30px Arial, sans-serif; fill: #172033; }
+      .sub { font: 16px Arial, sans-serif; fill: #526072; }
+      .h { font: 700 18px Arial, sans-serif; fill: #172033; }
+      .t { font: 15px Arial, sans-serif; fill: #253047; }
+      .small { font: 13px Arial, sans-serif; fill: #5d6b7f; }
+      .tag { fill: #eaf1ff; stroke: #7aa2ff; stroke-width: 1.4; rx: 6; }
+      .warn { fill: #fff6e6; stroke: #f5a524; stroke-width: 1.4; rx: 6; }
+      .ok { fill: #eaf8ef; stroke: #41a66b; stroke-width: 1.4; rx: 6; }
+      .line { stroke: #6b7a90; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+      .call { fill: #fff; stroke: #ff5a5f; stroke-width: 2.4; rx: 8; }
+      .num { fill: #ff5a5f; }
+      .numText { font: 700 16px Arial, sans-serif; fill: white; text-anchor: middle; dominant-baseline: central; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#6b7a90"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="760"/>
+  <text class="title" x="48" y="58">商户后台母版需求：用文档沉淀，用 Issue 分发执行</text>
+  <text class="sub" x="48" y="88">基于真 PP 后台实测样本：gameId 14775540204 / roundId 103698733804008 / IDR / Settled / 投注 4000 / 派彩 4000 / 净额 0</text>
+
+  <rect class="panel" x="48" y="128" width="300" height="530"/>
+  <text class="h" x="78" y="168">1. P0 菜单入口</text>
+  <rect class="warn" x="78" y="195" width="220" height="54"/>
+  <text class="t" x="94" y="218">接入指南</text>
+  <text class="small" x="94" y="239">API 配置 / 文档 / 签名校验</text>
+  <rect class="tag" x="78" y="268" width="220" height="38"/>
+  <text class="t" x="94" y="293">联调中心</text>
+  <rect class="tag" x="78" y="321" width="220" height="38"/>
+  <text class="t" x="94" y="346">玩家查询</text>
+  <rect class="tag" x="78" y="374" width="220" height="38"/>
+  <text class="t" x="94" y="399">注单查询</text>
+  <rect class="tag" x="78" y="427" width="220" height="38"/>
+  <text class="t" x="94" y="452">游戏 / 局详情</text>
+  <rect class="tag" x="78" y="480" width="220" height="38"/>
+  <text class="t" x="94" y="505">钱包流水 / 回调日志</text>
+  <text class="small" x="78" y="570">要求：接入指南是首页级核心模块；</text>
+  <text class="small" x="78" y="594">排查页支持 URL 参数定位。</text>
+
+  <rect class="panel" x="405" y="128" width="560" height="530"/>
+  <text class="h" x="435" y="168">2. 接入与查账必须串起来</text>
+  <rect class="call" x="435" y="200" width="220" height="80"/>
+  <circle class="num" cx="455" cy="220" r="13"/><text class="numText" x="455" y="220">1</text>
+  <text class="t" x="475" y="226">接入身份区</text>
+  <text class="small" x="475" y="252">APP ID / secureLogin / 域名</text>
+
+  <rect class="call" x="700" y="200" width="220" height="80"/>
+  <circle class="num" cx="720" cy="220" r="13"/><text class="numText" x="720" y="220">2</text>
+  <text class="t" x="740" y="226">签名校验区</text>
+  <text class="small" x="740" y="252">待签名串 / hash / 复制</text>
+
+  <rect class="call" x="435" y="330" width="220" height="80"/>
+  <circle class="num" cx="455" cy="350" r="13"/><text class="numText" x="455" y="350">3</text>
+  <text class="t" x="475" y="356">注单金额区</text>
+  <text class="small" x="475" y="382">投注 / 派彩 / 净额 / GGR</text>
+
+  <rect class="call" x="700" y="330" width="220" height="80"/>
+  <circle class="num" cx="720" cy="350" r="13"/><text class="numText" x="720" y="350">4</text>
+  <text class="t" x="740" y="356">联调入口区</text>
+  <text class="small" x="740" y="382">authenticate / balance / bet</text>
+
+  <rect class="call" x="435" y="460" width="485" height="92"/>
+  <circle class="num" cx="455" cy="482" r="13"/><text class="numText" x="455" y="482">5</text>
+  <text class="t" x="475" y="488">状态、时区、详情 URL</text>
+  <text class="small" x="475" y="516">业务状态和技术状态拆开；列表、详情、导出、联调记录互跳。</text>
+
+  <path class="line" d="M348 222 C380 222 382 240 428 240"/>
+  <path class="line" d="M348 392 C382 392 388 370 428 370"/>
+  <path class="line" d="M655 240 L693 240"/>
+  <path class="line" d="M655 370 L693 370"/>
+  <path class="line" d="M820 410 C820 440 760 450 760 460"/>
+
+  <rect class="panel" x="1020" y="128" width="330" height="530"/>
+  <text class="h" x="1050" y="168">3. 分发 Issue</text>
+  <rect class="ok" x="1050" y="202" width="250" height="42"/>
+  <text class="t" x="1066" y="229">#85 总入口 / 文档索引</text>
+  <rect class="tag" x="1050" y="259" width="250" height="42"/>
+  <text class="t" x="1066" y="286">P0 接入指南</text>
+  <rect class="tag" x="1050" y="316" width="250" height="42"/>
+  <text class="t" x="1066" y="343">联调中心</text>
+  <rect class="tag" x="1050" y="373" width="250" height="42"/>
+  <text class="t" x="1066" y="400">注单 / 局详情 / 查账</text>
+  <rect class="tag" x="1050" y="430" width="250" height="42"/>
+  <text class="t" x="1066" y="457">钱包流水与结算异常</text>
+  <rect class="warn" x="1050" y="505" width="250" height="74"/>
+  <text class="t" x="1066" y="532">暂缓：促销、免费筹码、</text>
+  <text class="t" x="1066" y="558">赌桌预订、对冲风控</text>
+
+  <path class="line" d="M965 390 C990 390 992 224 1040 224"/>
+
+  <text class="small" x="48" y="710">验收原则：商户能自助接入和联调；同一局在列表、详情、导出、钱包流水中金额/币种/状态/时间一致；低权限账号不能跨商户查看或导出。</text>
+</svg>
