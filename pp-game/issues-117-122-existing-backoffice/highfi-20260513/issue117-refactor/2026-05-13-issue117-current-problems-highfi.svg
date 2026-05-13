@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+    
+    <rect width="1800" height="1120" fill="#eef2f7"/>
+    <rect x="34" y="34" width="280" height="1052" rx="12" fill="#101827" stroke="#101827" stroke-width="0"/><text x="72" y="96" font-family="Heiti SC" font-size="34" fill="#fff" font-weight="900" text-anchor="start">PP 真人后台</text><text x="73" y="126" font-family="Heiti SC" font-size="16" fill="#94a3b8" font-weight="600" text-anchor="start">pre · ro954 · Ops</text><text x="66" y="150" font-family="Heiti SC" font-size="15" fill="#64748b" font-weight="700" text-anchor="start">首页</text><rect x="58" y="146" width="232" height="42" rx="8" fill="transparent" stroke="transparent" stroke-width="0"/><text x="88" y="172" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">驾驶舱</text><text x="66" y="256" font-family="Heiti SC" font-size="15" fill="#64748b" font-weight="700" text-anchor="start">游戏数据</text><rect x="58" y="252" width="232" height="42" rx="8" fill="transparent" stroke="transparent" stroke-width="0"/><text x="88" y="278" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">游戏用户</text><rect x="58" y="304" width="232" height="42" rx="8" fill="#2563eb" stroke="#2563eb" stroke-width="0"/><text x="88" y="330" font-family="Heiti SC" font-size="20" fill="#fff" font-weight="800" text-anchor="start">游戏开奖记录</text><rect x="58" y="356" width="232" height="42" rx="8" fill="transparent" stroke="transparent" stroke-width="0"/><text x="88" y="382" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">游戏局归档</text><rect x="58" y="408" width="232" height="42" rx="8" fill="transparent" stroke="transparent" stroke-width="0"/><text x="88" y="434" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">游戏流水</text><text x="66" y="518" font-family="Heiti SC" font-size="15" fill="#64748b" font-weight="700" text-anchor="start">Wallet</text><rect x="58" y="514" width="232" height="42" rx="8" fill="transparent" stroke="transparent" stroke-width="0"/><text x="88" y="540" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">Wallet流水</text><rect x="58" y="566" width="232" height="42" rx="8" fill="transparent" stroke="transparent" stroke-width="0"/><text x="88" y="592" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">Wallet出站日志</text><text x="66" y="676" font-family="Heiti SC" font-size="15" fill="#64748b" font-weight="700" text-anchor="start">日志审计</text><rect x="58" y="672" width="232" height="42" rx="8" fill="transparent" stroke="transparent" stroke-width="0"/><text x="88" y="698" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">ProviderAPI日志</text><rect x="58" y="724" width="232" height="42" rx="8" fill="transparent" stroke="transparent" stroke-width="0"/><text x="88" y="750" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">操作记录</text>
+    <rect x="350" y="34" width="1410" height="70" rx="10" fill="#fff" stroke="#d8e0ec" stroke-width="1.5"/>
+    <text x="380" y="78" font-family="Heiti SC" font-size="19" fill="#64748b" font-weight="700" text-anchor="start">游戏数据 / 游戏开奖记录</text>
+    <rect x="1325" y="50" width="150" height="36" rx="8" fill="#ecfeff" stroke="#67e8f9" stroke-width="1.5"/><text x="1400" y="74" font-family="Heiti SC" font-size="16" fill="#155e75" font-weight="700" text-anchor="middle">当前角色：运营</text>
+    <rect x="1495" y="50" width="220" height="36" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/><text x="1605" y="74" font-family="Heiti SC" font-size="16" fill="#334155" font-weight="700" text-anchor="middle">数据范围：授权商户/组织</text>
+    <text x="350" y="158" font-family="Heiti SC" font-size="38" fill="#0f172a" font-weight="900" text-anchor="start">现有游戏开奖记录问题标注</text>
+    <text x="350" y="198" font-family="Heiti SC" font-size="22" fill="#64748b" font-weight="700" text-anchor="start">真人局排查链路不完整，容易只看到记录，看不到注单、钱包、归档和审计闭环。</text>
+  
+    <rect x="350" y="230" width="880" height="150" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="380" y="266" font-family="Heiti SC" font-size="24" fill="#0f172a" font-weight="900" text-anchor="start">查询区（现状）</text>
+    <text x="380" y="296" font-family="Heiti SC" font-size="14" fill="#64748b" font-weight="700" text-anchor="start">时间范围</text><rect x="380" y="306" width="190" height="42" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/><text x="394" y="333" font-family="Heiti SC" font-size="16" fill="#334155" font-weight="600" text-anchor="start">今日</text>
+    <text x="590" y="296" font-family="Heiti SC" font-size="14" fill="#64748b" font-weight="700" text-anchor="start">游戏类型</text><rect x="590" y="306" width="190" height="42" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/><text x="604" y="333" font-family="Heiti SC" font-size="16" fill="#334155" font-weight="600" text-anchor="start">全部</text>
+    <text x="800" y="296" font-family="Heiti SC" font-size="14" fill="#64748b" font-weight="700" text-anchor="start">gameId</text><rect x="800" y="306" width="190" height="42" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/><text x="814" y="333" font-family="Heiti SC" font-size="16" fill="#334155" font-weight="600" text-anchor="start">输入 gameId</text>
+    <text x="1010" y="296" font-family="Heiti SC" font-size="14" fill="#64748b" font-weight="700" text-anchor="start">状态</text><rect x="1010" y="306" width="190" height="42" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/><text x="1024" y="333" font-family="Heiti SC" font-size="16" fill="#334155" font-weight="600" text-anchor="start">全部</text>
+
+    <rect x="350" y="405" width="880" height="390" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="380" y="443" font-family="Heiti SC" font-size="24" fill="#0f172a" font-weight="900" text-anchor="start">开奖记录列表（现状）</text>
+    <line x1="380" y1="462" x2="1195" y2="462" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="390" y="492" font-family="Heiti SC" font-size="15" fill="#475569" font-weight="800" text-anchor="start">时间</text><text x="570" y="492" font-family="Heiti SC" font-size="15" fill="#475569" font-weight="800" text-anchor="start">游戏</text><text x="690" y="492" font-family="Heiti SC" font-size="15" fill="#475569" font-weight="800" text-anchor="start">gameId</text><text x="850" y="492" font-family="Heiti SC" font-size="15" fill="#475569" font-weight="800" text-anchor="start">桌台</text><text x="970" y="492" font-family="Heiti SC" font-size="15" fill="#475569" font-weight="800" text-anchor="start">局状态</text><text x="1100" y="492" font-family="Heiti SC" font-size="15" fill="#475569" font-weight="800" text-anchor="start">结算</text><text x="1215" y="492" font-family="Heiti SC" font-size="15" fill="#475569" font-weight="800" text-anchor="start">操作</text>
+    <rect x="372" y="498" width="835" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="390" y="532" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">2026-05-13 19:01:45</text><text x="570" y="532" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">百家乐</text><text x="690" y="532" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">14775540204</text><text x="850" y="532" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">A01</text><text x="970" y="532" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">已开奖</text><text x="1100" y="532" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">success</text><text x="1215" y="532" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">查看</text><rect x="372" y="570" width="835" height="58" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="390" y="604" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">2026-05-13 19:03:12</text><text x="570" y="604" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">轮盘</text><text x="690" y="604" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">14775540205</text><text x="850" y="604" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">R02</text><text x="970" y="604" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">已开奖</text><text x="1100" y="604" font-family="Heiti SC" font-size="14" fill="#be123c" font-weight="800" text-anchor="start">error</text><text x="1215" y="604" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">查看</text><rect x="372" y="642" width="835" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="390" y="676" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">2026-05-13 19:08:20</text><text x="570" y="676" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">转盘</text><text x="690" y="676" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">14775540206</text><text x="850" y="676" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">MW01</text><text x="970" y="676" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">进行中</text><text x="1100" y="676" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">-</text><text x="1215" y="676" font-family="Heiti SC" font-size="14" fill="#1e293b" font-weight="500" text-anchor="start">查看</text>
+
+    <rect x="1260" y="230" width="500" height="565" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="1290" y="270" font-family="Heiti SC" font-size="28" fill="#991b1b" font-weight="900" text-anchor="start">问题结论</text>
+    <rect x="1290" y="300" width="187" height="36" rx="8" fill="#fff1f2" stroke="#fb7185" stroke-width="1.5"/><text x="1383.5" y="324" font-family="Heiti SC" font-size="14" fill="#be123c" font-weight="700" text-anchor="middle">不能支撑真人局排查闭环</text>
+    <text x="1290" y="365" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="650" text-anchor="start">1. 现在应补强现有游戏开奖记录，不应另开平行菜单。</text>
+    <text x="1290" y="420" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="650" text-anchor="start">2. 查询和列表缺关键 ID、结果、金额、归档状态。</text>
+    <text x="1290" y="475" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="650" text-anchor="start">3. 缺注单、Wallet、局归档、消息流水和 #135 链路。</text>
+    <text x="1290" y="530" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="650" text-anchor="start">4. 状态口径和导出/审计边界不可验收。</text>
+    <rect x="1290" y="590" width="420" height="150" rx="10" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+    <text x="1320" y="630" font-family="Heiti SC" font-size="24" fill="#9a3412" font-weight="900" text-anchor="start">本期目标</text>
+    <text x="1320" y="674" font-family="Heiti SC" font-size="18" fill="#7c2d12" font-weight="700" text-anchor="start">在现有页面补字段、补跳转、补权限审计，</text>
+    <text x="1320" y="712" font-family="Heiti SC" font-size="18" fill="#7c2d12" font-weight="700" text-anchor="start">不是重做一个新后台。</text>
+
+    <rect x="350" y="830" width="1410" height="180" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="380" y="868" font-family="Heiti SC" font-size="26" fill="#0f172a" font-weight="900" text-anchor="start">当前风险</text>
+    <rect x="380" y="902" width="112" height="36" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/><text x="436" y="926" font-family="Heiti SC" font-size="14" fill="#92400e" font-weight="700" text-anchor="middle">查询条件不足</text>
+    <rect x="560" y="902" width="127" height="36" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/><text x="623.5" y="926" font-family="Heiti SC" font-size="14" fill="#92400e" font-weight="700" text-anchor="middle">列表看不懂结果</text>
+    <rect x="770" y="902" width="97" height="36" rx="8" fill="#fff1f2" stroke="#fb7185" stroke-width="1.5"/><text x="818.5" y="926" font-family="Heiti SC" font-size="14" fill="#be123c" font-weight="700" text-anchor="middle">关联链路断</text>
+    <rect x="940" y="902" width="112" height="36" rx="8" fill="#fff1f2" stroke="#fb7185" stroke-width="1.5"/><text x="996" y="926" font-family="Heiti SC" font-size="14" fill="#be123c" font-weight="700" text-anchor="middle">状态口径不清</text>
+    <rect x="1120" y="902" width="127" height="36" rx="8" fill="#fff1f2" stroke="#fb7185" stroke-width="1.5"/><text x="1183.5" y="926" font-family="Heiti SC" font-size="14" fill="#be123c" font-weight="700" text-anchor="middle">导出/审计风险</text>
+    <text x="380" y="972" font-family="Heiti SC" font-size="20" fill="#334155" font-weight="800" text-anchor="start">QA 无法只凭当前列表判断：一局真人游戏发生了什么、资金是否对上、证据是否归档、谁查看/导出过。</text>
+
+    
+    <circle cx="340" cy="214" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="340" y="222" font-family="Heiti SC" font-size="25" fill="#ea580c" font-weight="900" text-anchor="middle">1</text>
+    <rect x="384" y="188" width="286" height="52" rx="9" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="398" y="219" font-family="Heiti SC" font-size="16" fill="#7c2d12" font-weight="800" text-anchor="start">页面定位不清，易另开菜单</text>
+  
+    
+    <circle cx="350" cy="330" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="350" y="338" font-family="Heiti SC" font-size="25" fill="#ea580c" font-weight="900" text-anchor="middle">2</text>
+    <rect x="394" y="304" width="305" height="52" rx="9" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="408" y="335" font-family="Heiti SC" font-size="16" fill="#7c2d12" font-weight="800" text-anchor="start">查询缺 roundId / PP tableId / 玩家</text>
+  
+    
+    <circle cx="350" cy="520" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="350" y="528" font-family="Heiti SC" font-size="25" fill="#ea580c" font-weight="900" text-anchor="middle">3</text>
+    <rect x="394" y="494" width="330" height="52" rx="9" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="408" y="525" font-family="Heiti SC" font-size="16" fill="#7c2d12" font-weight="800" text-anchor="start">列表缺结果、金额、归档和关联对象</text>
+  
+    
+    <circle cx="1240" cy="615" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="1240" y="623" font-family="Heiti SC" font-size="25" fill="#ea580c" font-weight="900" text-anchor="middle">4</text>
+    <rect x="1284" y="589" width="270" height="52" rx="9" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="1298" y="620" font-family="Heiti SC" font-size="16" fill="#7c2d12" font-weight="800" text-anchor="start">行操作没有排查链路</text>
+  
+    
+    <circle cx="1220" cy="485" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="1220" y="493" font-family="Heiti SC" font-size="25" fill="#ea580c" font-weight="900" text-anchor="middle">5</text>
+    <rect x="1264" y="459" width="285" height="52" rx="9" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="1278" y="490" font-family="Heiti SC" font-size="16" fill="#7c2d12" font-weight="800" text-anchor="start">状态只见枚举，看不出口径</text>
+  
+    
+    <circle cx="1260" cy="820" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="1260" y="828" font-family="Heiti SC" font-size="25" fill="#ea580c" font-weight="900" text-anchor="middle">6</text>
+    <rect x="1304" y="794" width="310" height="52" rx="9" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="1318" y="825" font-family="Heiti SC" font-size="16" fill="#7c2d12" font-weight="800" text-anchor="start">权限、导出、审计风险未显性化</text>
+  
+  </svg>
