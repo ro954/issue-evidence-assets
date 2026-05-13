@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1000" viewBox="0 0 1700 1000">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .panel { fill: #111827; stroke: #334155; stroke-width: 2; }
+      .panel2 { fill: #0b1220; stroke: #334155; stroke-width: 2; }
+      .line { stroke: #334155; stroke-width: 2; }
+      .text { font-family: "Heiti SC"; fill: #e5e7eb; }
+      .muted { fill: #9ca3af; }
+      .blue { fill: #2563eb; }
+      .green { fill: #16a34a; }
+      .red { fill: #dc2626; }
+      .amber { fill: #d97706; }
+      .purple { fill: #7c3aed; }
+      .tag { rx: 8; ry: 8; }
+      .callout { fill: #f97316; }
+      .calloutText { font-family: "Heiti SC"; fill: #fff; font-weight: 700; }
+      .arrow { stroke: #f97316; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#f97316" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1700" height="1000"/>
+  <text class="text" x="54" y="64" font-size="34" font-weight="700">#138 游戏用户页后续优化：目标效果原型</text>
+  <text class="text muted" x="54" y="104" font-size="20">产品审核看这张图：不新建页面，只优化现有游戏用户页的操作区、关联弹窗、文案和权限表达。</text>
+
+  <rect class="panel" x="54" y="140" width="1292" height="700" rx="12"/>
+  <text class="text" x="86" y="190" font-size="26" font-weight="700">ADMIN / 游戏数据 / 游戏用户</text>
+  <text class="text muted" x="86" y="224" font-size="18">目标：排查入口更好找，高危管理入口按权限展示，打开关联记录后知道当前查的是哪个玩家。</text>
+
+  <!-- Search area -->
+  <rect class="panel2" x="86" y="254" width="1228" height="100" rx="8"/>
+  <text class="text" x="112" y="314" font-size="22" font-weight="700">查询区</text>
+  <rect class="panel" x="218" y="282" width="150" height="40" rx="7"/>
+  <text class="text muted" x="240" y="308" font-size="17">昵称 / 登录ID</text>
+  <rect class="panel" x="382" y="282" width="150" height="40" rx="7"/>
+  <text class="text muted" x="404" y="308" font-size="17">商户玩家ID</text>
+  <rect class="panel" x="546" y="282" width="120" height="40" rx="7"/>
+  <text class="text muted" x="586" y="308" font-size="17">状态</text>
+  <rect class="panel" x="680" y="282" width="120" height="40" rx="7"/>
+  <text class="text muted" x="720" y="308" font-size="17">来源</text>
+  <rect class="blue tag" x="818" y="282" width="86" height="40"/>
+  <text class="text" x="846" y="309" font-size="17">搜索</text>
+  <rect class="panel" x="918" y="282" width="86" height="40" rx="7"/>
+  <text class="text muted" x="946" y="309" font-size="17">重置</text>
+  <text class="text muted" x="1032" y="307" font-size="17">文案显示中文业务字段，不出现 business.*</text>
+
+  <!-- Table row -->
+  <rect class="panel2" x="86" y="386" width="1228" height="245" rx="8"/>
+  <text class="text" x="112" y="432" font-size="22" font-weight="700">列表行操作区</text>
+  <line class="line" x1="112" y1="458" x2="1288" y2="458"/>
+  <text class="text muted" x="112" y="500" font-size="18">玩家：u-492efc28 / ammy111 / 商户玩家ID YS3S1IAPT2 / IDR / 正常</text>
+  <text class="text" x="112" y="554" font-size="18" font-weight="700">排查入口</text>
+  <rect class="green tag" x="212" y="526" width="150" height="40"/>
+  <text class="text" x="232" y="553" font-size="17">真人游戏记录</text>
+  <rect class="green tag" x="376" y="526" width="128" height="40"/>
+  <text class="text" x="398" y="553" font-size="17">注单/结算</text>
+  <rect class="green tag" x="518" y="526" width="128" height="40"/>
+  <text class="text" x="540" y="553" font-size="17">钱包流水</text>
+  <rect class="green tag" x="660" y="526" width="154" height="40"/>
+  <text class="text" x="682" y="553" font-size="17">会话/异常记录</text>
+  <text class="text" x="112" y="606" font-size="18" font-weight="700">管理入口</text>
+  <rect class="blue tag" x="212" y="578" width="74" height="40"/>
+  <text class="text" x="234" y="605" font-size="17">查看</text>
+  <rect class="amber tag" x="300" y="578" width="74" height="40"/>
+  <text class="text" x="322" y="605" font-size="17">编辑</text>
+  <rect class="purple tag" x="388" y="578" width="110" height="40"/>
+  <text class="text" x="412" y="605" font-size="17">金币/状态</text>
+  <rect class="red tag" x="512" y="578" width="74" height="40"/>
+  <text class="text" x="534" y="605" font-size="17">删除</text>
+  <text class="text muted" x="620" y="604" font-size="17">按既有后台权限展示；普通排查角色不显示高危入口</text>
+
+  <!-- Dialog -->
+  <rect class="panel2" x="86" y="664" width="1228" height="140" rx="8"/>
+  <text class="text" x="112" y="710" font-size="22" font-weight="700">关联记录弹窗顶部</text>
+  <rect class="blue tag" x="112" y="732" width="126" height="42"/>
+  <text class="text" x="142" y="760" font-size="18">注单/结算</text>
+  <text class="text" x="260" y="748" font-size="18">当前玩家：u-492efc28 · ammy111 · 商户玩家ID YS3S1IAPT2 · IDR</text>
+  <text class="text muted" x="260" y="782" font-size="17">默认筛选：user_id = u-492efc28；重置、分页、刷新后仍保留这个玩家范围</text>
+
+  <!-- Callouts right -->
+  <rect class="panel" x="888" y="486" width="382" height="120" rx="8"/>
+  <circle class="callout" cx="918" cy="522" r="18"/>
+  <text class="calloutText" x="912" y="529" font-size="18">1</text>
+  <text class="text" x="950" y="528" font-size="18" font-weight="700">操作区分组</text>
+  <text class="text muted" x="950" y="562" font-size="16">排查入口和管理入口分开，先排查，后管理。</text>
+  <path class="arrow" d="M916 540 C850 565, 818 552, 812 548"/>
+
+  <rect class="panel" x="888" y="620" width="382" height="104" rx="8"/>
+  <circle class="callout" cx="918" cy="654" r="18"/>
+  <text class="calloutText" x="912" y="661" font-size="18">2</text>
+  <text class="text" x="950" y="660" font-size="18" font-weight="700">高危入口按权限</text>
+  <text class="text muted" x="950" y="694" font-size="16">有权限可操作；普通排查角色不误触。</text>
+  <path class="arrow" d="M916 674 C780 660, 620 612, 580 600"/>
+
+  <rect class="panel" x="888" y="738" width="382" height="66" rx="8"/>
+  <circle class="callout" cx="918" cy="772" r="18"/>
+  <text class="calloutText" x="912" y="779" font-size="18">3</text>
+  <text class="text" x="950" y="778" font-size="18" font-weight="700">弹窗顶部显示玩家上下文</text>
+  <path class="arrow" d="M900 772 C710 766, 472 756, 260 752"/>
+
+  <rect class="panel" x="54" y="870" width="1292" height="78" rx="10"/>
+  <text class="text" x="86" y="918" font-size="24" font-weight="700">产品验收只看：</text>
+  <text class="text" x="274" y="918" font-size="21">①操作区是否分组  ②弹窗是否看得出当前玩家  ③默认筛选是否可见  ④文案和权限是否清楚</text>
+</svg>
