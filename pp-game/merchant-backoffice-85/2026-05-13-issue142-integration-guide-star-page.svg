@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .panel { fill: #ffffff; stroke: #d9e0ea; stroke-width: 2; }
+      .muted { fill: #667085; font-size: 24px; font-family: Arial, "PingFang SC", sans-serif; }
+      .title { fill: #111827; font-size: 36px; font-weight: 700; font-family: Arial, "PingFang SC", sans-serif; }
+      .h2 { fill: #111827; font-size: 26px; font-weight: 700; font-family: Arial, "PingFang SC", sans-serif; }
+      .txt { fill: #344054; font-size: 22px; font-family: Arial, "PingFang SC", sans-serif; }
+      .small { fill: #475467; font-size: 19px; font-family: Arial, "PingFang SC", sans-serif; }
+      .btn { fill: #eef4ff; stroke: #84adff; stroke-width: 2; }
+      .primary { fill: #155eef; }
+      .success { fill: #ecfdf3; stroke: #75e0a7; stroke-width: 2; }
+      .warn { fill: #fffaeb; stroke: #fdb022; stroke-width: 2; }
+      .danger { fill: #fff1f3; stroke: #f63d68; stroke-width: 2; }
+      .line { stroke: #cbd5e1; stroke-width: 2; }
+      .callout { fill: none; stroke: #f97316; stroke-width: 4; }
+      .num { fill: #f97316; font-size: 30px; font-weight: 800; font-family: Arial, sans-serif; }
+      .note { fill: #7c2d12; font-size: 20px; font-weight: 700; font-family: Arial, "PingFang SC", sans-serif; }
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+
+  <rect x="36" y="36" width="250" height="928" rx="10" fill="#111827"/>
+  <text x="72" y="95" fill="#ffffff" font-size="30" font-weight="700" font-family="Arial, PingFang SC, sans-serif">PP 商户后台</text>
+  <rect x="60" y="142" width="202" height="54" rx="8" fill="#1d4ed8"/>
+  <text x="88" y="177" fill="#ffffff" font-size="22" font-family="Arial, PingFang SC, sans-serif">接入指南</text>
+  <text x="88" y="245" fill="#cbd5e1" font-size="21" font-family="Arial, PingFang SC, sans-serif">玩家查询</text>
+  <text x="88" y="296" fill="#cbd5e1" font-size="21" font-family="Arial, PingFang SC, sans-serif">注单查询</text>
+  <text x="88" y="347" fill="#cbd5e1" font-size="21" font-family="Arial, PingFang SC, sans-serif">钱包流水</text>
+
+  <text x="330" y="86" class="title">接入指南</text>
+  <text x="330" y="126" class="muted">明星页默认打开 API 接入配置；商户第一眼看到自己的接入身份、文档、签名和联调入口。</text>
+
+  <rect x="330" y="160" width="1218" height="82" rx="10" class="warn"/>
+  <text x="360" y="194" class="h2">API 状态：已开启</text>
+  <text x="360" y="226" class="txt">若关闭，顶部显示阻塞原因；callback URL 为空时，联调按钮置灰并提示先补配置。</text>
+  <rect x="1230" y="178" width="138" height="42" rx="8" class="btn"/>
+  <text x="1256" y="207" class="small">查看文档</text>
+  <rect x="1384" y="178" width="128" height="42" rx="8" class="primary"/>
+  <text x="1411" y="207" fill="#ffffff" font-size="19" font-family="Arial, PingFang SC, sans-serif">开始联调</text>
+
+  <rect x="330" y="270" width="760" height="446" rx="10" class="panel"/>
+  <text x="360" y="318" class="h2">1  API 接入配置</text>
+  <line x1="360" y1="342" x2="1060" y2="342" class="line"/>
+  <text x="360" y="386" class="txt">APP ID</text>
+  <text x="610" y="386" class="txt">app_pp_10086</text>
+  <rect x="920" y="358" width="104" height="40" rx="8" class="btn"/>
+  <text x="952" y="385" class="small">复制</text>
+  <text x="360" y="437" class="txt">商户名称</text>
+  <text x="610" y="437" class="txt">Demo Merchant</text>
+  <rect x="920" y="409" width="104" height="40" rx="8" class="btn"/>
+  <text x="952" y="436" class="small">复制</text>
+  <text x="360" y="488" class="txt">secureLogin</text>
+  <text x="610" y="488" class="txt">demo_secure</text>
+  <rect x="920" y="460" width="104" height="40" rx="8" class="btn"/>
+  <text x="952" y="487" class="small">复制</text>
+  <text x="360" y="539" class="txt">Provider API 域名</text>
+  <text x="610" y="539" class="txt">https://api.example.com</text>
+  <rect x="920" y="511" width="104" height="40" rx="8" class="btn"/>
+  <text x="952" y="538" class="small">复制</text>
+  <text x="360" y="590" class="txt">callback URL</text>
+  <text x="610" y="590" class="txt">https://merchant.example.com</text>
+  <rect x="920" y="562" width="104" height="40" rx="8" class="btn"/>
+  <text x="952" y="589" class="small">复制</text>
+  <text x="360" y="641" class="txt">密钥</text>
+  <text x="610" y="641" class="txt">sk_live_************</text>
+  <rect x="828" y="613" width="104" height="40" rx="8" class="btn"/>
+  <text x="850" y="640" class="small">查看</text>
+  <rect x="944" y="613" width="104" height="40" rx="8" class="btn"/>
+  <text x="966" y="640" class="small">复制</text>
+
+  <rect x="1118" y="270" width="430" height="214" rx="10" class="panel"/>
+  <text x="1148" y="318" class="h2">2  API 文档入口</text>
+  <line x1="1148" y1="342" x2="1518" y2="342" class="line"/>
+  <text x="1148" y="382" class="txt">按接入流程组织：</text>
+  <text x="1148" y="420" class="small">接入前准备 / 通用规则 / Provider API</text>
+  <text x="1148" y="452" class="small">Wallet 回调 / 错误码 / 示例请求</text>
+
+  <rect x="1118" y="502" width="430" height="214" rx="10" class="panel"/>
+  <text x="1148" y="550" class="h2">3  签名校验工具</text>
+  <line x1="1148" y1="574" x2="1518" y2="574" class="line"/>
+  <text x="1148" y="614" class="txt">输入参数后计算签名。</text>
+  <text x="1148" y="650" class="small">默认带入当前商户 secureLogin。</text>
+  <rect x="1368" y="648" width="128" height="42" rx="8" class="primary"/>
+  <text x="1398" y="677" fill="#ffffff" font-size="19" font-family="Arial, PingFang SC, sans-serif">去校验</text>
+
+  <rect x="330" y="750" width="1218" height="150" rx="10" class="panel"/>
+  <text x="360" y="800" class="h2">4  联调中心入口</text>
+  <text x="360" y="838" class="txt">从接入指南跳转联调中心，必须带入当前商户上下文；不允许通过 URL 手改商户 ID 跨商户联调。</text>
+  <rect x="360" y="858" width="260" height="42" rx="8" class="success"/>
+  <text x="388" y="887" class="small">可测：回调地址已配置</text>
+  <rect x="640" y="858" width="290" height="42" rx="8" class="danger"/>
+  <text x="668" y="887" class="small">阻塞：callback URL 为空</text>
+
+  <rect x="312" y="252" width="798" height="484" rx="14" fill="none" class="callout"/>
+  <circle cx="322" cy="262" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="4"/>
+  <text x="312" y="273" class="num">1</text>
+  <rect x="1100" y="252" width="468" height="250" rx="14" fill="none" class="callout"/>
+  <circle cx="1110" cy="262" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="4"/>
+  <text x="1100" y="273" class="num">2</text>
+  <rect x="1100" y="486" width="468" height="250" rx="14" fill="none" class="callout"/>
+  <circle cx="1110" cy="496" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="4"/>
+  <text x="1100" y="507" class="num">3</text>
+  <rect x="312" y="732" width="1256" height="188" rx="14" fill="none" class="callout"/>
+  <circle cx="322" cy="742" r="30" fill="#fff7ed" stroke="#f97316" stroke-width="4"/>
+  <text x="312" y="753" class="num">4</text>
+
+  <text x="330" y="952" class="note">示意图：用于 #142 页面结构和标注说明，不要求视觉 1:1；最终 UI 沿用现有 PP 后台样式。</text>
+</svg>
