@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+    <rect width="1600" height="1000" fill="#eef2f7"/>
+    <rect x="36" y="36" width="250" height="928" rx="10" fill="#111827"/>
+    <text x="72" y="95" font-family="Heiti SC" font-size="31" fill="#ffffff" font-weight="900" text-anchor="start">PP 真人后台</text>
+    
+        <rect x="60" y="80" width="210" height="44" rx="9" fill="transparent"/>
+        <text x="88" y="107" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">驾驶舱</text>
+      
+        <rect x="60" y="138" width="210" height="44" rx="9" fill="transparent"/>
+        <text x="88" y="165" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">游戏用户</text>
+      
+        <rect x="60" y="196" width="210" height="44" rx="9" fill="transparent"/>
+        <text x="88" y="223" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">游戏开奖记录</text>
+      
+        <rect x="60" y="254" width="210" height="44" rx="9" fill="#2563eb"/>
+        <text x="88" y="281" font-family="Heiti SC" font-size="20" fill="#ffffff" font-weight="800" text-anchor="start">游戏局归档</text>
+      
+        <rect x="60" y="312" width="210" height="44" rx="9" fill="transparent"/>
+        <text x="88" y="339" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">游戏流水</text>
+      
+        <rect x="60" y="370" width="210" height="44" rx="9" fill="transparent"/>
+        <text x="88" y="397" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">Wallet流水</text>
+      
+        <rect x="60" y="428" width="210" height="44" rx="9" fill="transparent"/>
+        <text x="88" y="455" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">ProviderAPI日志</text>
+      
+        <rect x="60" y="486" width="210" height="44" rx="9" fill="transparent"/>
+        <text x="88" y="513" font-family="Heiti SC" font-size="20" fill="#cbd5e1" font-weight="600" text-anchor="start">操作记录</text>
+      
+
+    <rect x="330" y="36" width="1225" height="68" rx="10" fill="#ffffff" stroke="#d8e0ec"/>
+    <text x="358" y="78" font-family="Heiti SC" font-size="18" fill="#64748b" font-weight="700" text-anchor="start">游戏数据 / 游戏局归档</text>
+    <rect x="1225" y="50" width="240" height="42" rx="9" fill="#ecfeff" stroke="#67e8f9" stroke-width="2"/><text x="1345" y="77" font-family="Heiti SC" font-size="18" fill="#155e75" font-weight="600" text-anchor="middle">只读详情 · 不新建局详情页</text>
+    <rect x="1483" y="50" width="110" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="1538" y="77" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="600" text-anchor="middle">导出受控</text>
+
+    <text x="330" y="154" font-family="Heiti SC" font-size="38" fill="#0f172a" font-weight="900" text-anchor="start">真人游戏局归档</text>
+    <text x="330" y="192" font-family="Heiti SC" font-size="22" fill="#64748b" font-weight="700" text-anchor="start">复用现有局归档 / 开奖记录 / 消息流水补齐一局详情证据链。</text>
+
+    <rect x="330" y="210" width="1225" height="85" rx="12" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+    <text x="360" y="247" font-family="Heiti SC" font-size="24" fill="#9a3412" font-weight="900" text-anchor="start">产品审核区：</text>
+    <text x="500" y="247" font-family="Heiti SC" font-size="20" fill="#334155" font-weight="700" text-anchor="start">本页用于把 PP 上游 ID、内部 ID、下注窗口、开奖结果、结算和归档证据放到同一条排查链。</text>
+    <rect x="350" y="226" width="190" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="445" y="253" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="600" text-anchor="middle">gameId / roundId</text><rect x="575" y="226" width="190" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="670" y="253" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="600" text-anchor="middle">PP tableId</text><rect x="800" y="226" width="190" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="895" y="253" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="600" text-anchor="middle">内部 table ID</text><rect x="350" y="280" width="190" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="445" y="307" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="600" text-anchor="middle">归档状态</text><rect x="575" y="280" width="190" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="670" y="307" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="600" text-anchor="middle">消息类型</text><rect x="800" y="280" width="190" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="895" y="307" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="600" text-anchor="middle">时间范围</text>
+
+    <rect x="330" y="320" width="790" height="350" rx="13" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="360" y="352" font-family="Heiti SC" font-size="26" fill="#0f172a" font-weight="900" text-anchor="start">列表与查询结果</text>
+    <line x1="360" y1="368" x2="1070" y2="368" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="356" y="382" font-family="Heiti SC" font-size="14" fill="#475569" font-weight="800" text-anchor="start">节点</text><text x="474" y="382" font-family="Heiti SC" font-size="14" fill="#475569" font-weight="800" text-anchor="start">PP 时间</text><text x="592" y="382" font-family="Heiti SC" font-size="14" fill="#475569" font-weight="800" text-anchor="start">后台时间</text><text x="710" y="382" font-family="Heiti SC" font-size="14" fill="#475569" font-weight="800" text-anchor="start">状态</text><text x="828" y="382" font-family="Heiti SC" font-size="14" fill="#475569" font-weight="800" text-anchor="start">证据</text><text x="946" y="382" font-family="Heiti SC" font-size="14" fill="#475569" font-weight="800" text-anchor="start">关联对象</text>
+    
+        <rect x="345" y="391" width="760" height="54" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+        <text x="356" y="424" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">betsopen</text><text x="474" y="424" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">12:01:03 UTC</text><text x="592" y="424" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">19:01:03 BKK</text><text x="710" y="424" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">已归档</text><text x="828" y="424" font-family="Heiti SC" font-size="12" fill="#0f766e" font-weight="700" text-anchor="start">消息包</text><text x="946" y="424" font-family="Heiti SC" font-size="12" fill="#0f766e" font-weight="700" text-anchor="start">桌台 A01</text>
+      
+        <rect x="345" y="453" width="760" height="54" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="356" y="486" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">betsclosed</text><text x="474" y="486" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">12:01:28 UTC</text><text x="592" y="486" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">19:01:28 BKK</text><text x="710" y="486" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">已归档</text><text x="828" y="486" font-family="Heiti SC" font-size="12" fill="#0f766e" font-weight="700" text-anchor="start">消息包</text><text x="946" y="486" font-family="Heiti SC" font-size="12" fill="#0f766e" font-weight="700" text-anchor="start">roundId 40204</text>
+      
+        <rect x="345" y="515" width="760" height="54" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+        <text x="356" y="548" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">gameresult</text><text x="474" y="548" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">12:01:45 UTC</text><text x="592" y="548" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">19:01:45 BKK</text><text x="710" y="548" font-family="Heiti SC" font-size="12" fill="#1e293b" font-weight="500" text-anchor="start">缺视频</text><text x="828" y="548" font-family="Heiti SC" font-size="12" fill="#0f766e" font-weight="700" text-anchor="start">归档异常</text><text x="946" y="548" font-family="Heiti SC" font-size="12" fill="#0f766e" font-weight="700" text-anchor="start">注单 18 笔</text>
+      
+
+    <rect x="1135" y="320" width="420" height="350" rx="13" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="1160" y="352" font-family="Heiti SC" font-size="26" fill="#0f172a" font-weight="900" text-anchor="start">ID 映射与归档证据</text>
+    <line x1="1160" y1="368" x2="1518" y2="368" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="1160" y="412" font-family="Heiti SC" font-size="17" fill="#334155" font-weight="600" text-anchor="start">1. PP tableId / gameId 与内部 ID</text><text x="1160" y="460" font-family="Heiti SC" font-size="17" fill="#334155" font-weight="600" text-anchor="start">2. 下注、开奖、结算、归档时间轴</text><text x="1160" y="508" font-family="Heiti SC" font-size="17" fill="#334155" font-weight="600" text-anchor="start">3. 消息、回放、归档包、注单、钱包</text>
+    <rect x="1160" y="580" width="155" height="42" rx="9" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/><text x="1237.5" y="607" font-family="Heiti SC" font-size="18" fill="#1d4ed8" font-weight="600" text-anchor="middle">查看详情</text>
+    <rect x="1330" y="580" width="155" height="42" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="1407.5" y="607" font-family="Heiti SC" font-size="18" fill="#334155" font-weight="600" text-anchor="middle">复制排查 ID</text>
+
+    <rect x="330" y="695" width="790" height="205" rx="13" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="360" y="730" font-family="Heiti SC" font-size="26" fill="#0f172a" font-weight="900" text-anchor="start">本期验收红线</text>
+    <rect x="360" y="760" width="180" height="42" rx="9" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/><text x="450" y="787" font-family="Heiti SC" font-size="18" fill="#065f46" font-weight="600" text-anchor="middle">后端权限校验</text>
+    <rect x="560" y="760" width="190" height="42" rx="9" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/><text x="655" y="787" font-family="Heiti SC" font-size="18" fill="#065f46" font-weight="600" text-anchor="middle">导出不超页面字段</text>
+    <rect x="770" y="760" width="155" height="42" rx="9" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/><text x="847.5" y="787" font-family="Heiti SC" font-size="18" fill="#065f46" font-weight="600" text-anchor="middle">敏感字段脱敏</text>
+    <rect x="945" y="760" width="135" height="42" rx="9" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/><text x="1012.5" y="787" font-family="Heiti SC" font-size="18" fill="#065f46" font-weight="600" text-anchor="middle">操作审计</text>
+    <text x="360" y="845" font-family="Heiti SC" font-size="20" fill="#334155" font-weight="700" text-anchor="start">URL / API / 导出 / 详情跳转都不能绕过角色、商户、代理、组织权限。</text>
+    <text x="360" y="878" font-family="Heiti SC" font-size="18" fill="#92400e" font-weight="800" text-anchor="start">图为 #118 高保真后台原型，用于功能位置、标注和验收对齐；最终 UI 沿用现有 PP 后台样式。</text>
+
+    <rect x="1135" y="695" width="420" height="205" rx="13" fill="#ffffff" stroke="#fb7185" stroke-width="2"/>
+    <text x="1160" y="730" font-family="Heiti SC" font-size="26" fill="#9f1239" font-weight="900" text-anchor="start">不纳入本期</text>
+    <rect x="1160" y="705" width="160" height="42" rx="9" fill="#fff1f2" stroke="#fb7185" stroke-width="2"/><text x="1240" y="732" font-family="Heiti SC" font-size="18" fill="#9f1239" font-weight="600" text-anchor="middle">不新增独立局详情后台</text><rect x="1340" y="705" width="160" height="42" rx="9" fill="#fff1f2" stroke="#fb7185" stroke-width="2"/><text x="1420" y="732" font-family="Heiti SC" font-size="18" fill="#9f1239" font-weight="600" text-anchor="middle">不改开奖结果</text><rect x="1160" y="757" width="160" height="42" rx="9" fill="#fff1f2" stroke="#fb7185" stroke-width="2"/><text x="1240" y="784" font-family="Heiti SC" font-size="18" fill="#9f1239" font-weight="600" text-anchor="middle">不手动重结算</text><rect x="1340" y="757" width="160" height="42" rx="9" fill="#fff1f2" stroke="#fb7185" stroke-width="2"/><text x="1420" y="784" font-family="Heiti SC" font-size="18" fill="#9f1239" font-weight="600" text-anchor="middle">不做棋牌局详情</text>
+
+    <rect x="310" y="250" width="820" height="442" rx="14" fill="none" stroke="#f97316" stroke-width="4"/>
+    <rect x="1115" y="250" width="455" height="670" rx="14" fill="none" stroke="#f97316" stroke-width="4"/>
+    
+    <circle cx="330" cy="214" r="31" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="330" y="223" font-family="Heiti SC" font-size="26" fill="#ea580c" font-weight="800" text-anchor="middle">1</text>
+    <rect x="368" y="190" width="250" height="48" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="380" y="220" font-family="Heiti SC" font-size="15" fill="#7c2d12" font-weight="700" text-anchor="start">用 PP ID 和内部 ID 都能定位同一局</text>
+  
+    <circle cx="330" cy="360" r="31" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="330" y="369" font-family="Heiti SC" font-size="26" fill="#ea580c" font-weight="800" text-anchor="middle">2</text>
+    <rect x="368" y="336" width="250" height="48" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="380" y="366" font-family="Heiti SC" font-size="15" fill="#7c2d12" font-weight="700" text-anchor="start">详情时间轴必须标明时区和状态来源</text>
+  
+    <circle cx="1125" cy="360" r="31" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="1125" y="369" font-family="Heiti SC" font-size="26" fill="#ea580c" font-weight="800" text-anchor="middle">3</text>
+    <rect x="1163" y="336" width="250" height="48" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="1175" y="366" font-family="Heiti SC" font-size="15" fill="#7c2d12" font-weight="700" text-anchor="start">归档证据缺失时展示原因</text>
+  
+    <circle cx="1125" cy="690" r="31" fill="#fff7ed" stroke="#f97316" stroke-width="5"/>
+    <text x="1125" y="699" font-family="Heiti SC" font-size="26" fill="#ea580c" font-weight="800" text-anchor="middle">4</text>
+    <rect x="1163" y="666" width="250" height="48" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="1175" y="696" font-family="Heiti SC" font-size="15" fill="#7c2d12" font-weight="700" text-anchor="start">下载/复制证据要有权限和审计</text>
+  
+  </svg>
