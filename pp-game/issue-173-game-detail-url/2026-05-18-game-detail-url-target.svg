@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f8fb"/>
+      <stop offset="1" stop-color="#eef2f6"/>
+    </linearGradient>
+    <linearGradient id="banker" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d70418"/>
+      <stop offset="1" stop-color="#a30011"/>
+    </linearGradient>
+    <linearGradient id="player" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1263f1"/>
+      <stop offset="1" stop-color="#0736b8"/>
+    </linearGradient>
+    <linearGradient id="tie" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#16ad42"/>
+      <stop offset="1" stop-color="#087629"/>
+    </linearGradient>
+    <style>
+      text { font-family: sans-serif; fill: #172033; }
+      .small { font-size: 20px; fill: #667085; }
+      .label { font-size: 24px; font-weight: 700; fill: #172033; }
+      .title { font-size: 38px; font-weight: 800; }
+      .card { fill: #fff; stroke: #d9e0ea; stroke-width: 2; rx: 18; }
+      .callout { fill: #fff7ed; stroke: #f59e0b; stroke-width: 2; rx: 12; }
+      .num { fill: #f97316; font-size: 24px; font-weight: 800; }
+      .white { fill: #fff; }
+      .muted { fill: #98a2b3; }
+      .green { fill: #16a34a; }
+      .red { fill: #ef4444; }
+      .blue { fill: #2563eb; }
+      .chip { fill: #f59e0b; stroke: #fff; stroke-width: 5; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1120" fill="#f7f8fb"/>
+
+  <text x="60" y="70" class="title">游戏详情 URL 页面目标示意</text>
+  <text x="60" y="108" class="small">用于 #173：后台注单详情可弹出；外部下游携带参数也可打开；重点展示押注图示、开奖结果图示和可核对字段。</text>
+
+  <rect x="60" y="145" width="1320" height="155" class="card"/>
+  <text x="92" y="190" class="label">页面入口与用途</text>
+  <text x="92" y="228" class="small">后台：注单详情点“游戏详情”弹出或新开页面</text>
+  <text x="92" y="262" class="small">下游：携带注单号、牌局号、商户、签名访问</text>
+  <text x="760" y="228" class="small">目标：双方用同一页面核对玩家疑问单</text>
+  <text x="760" y="262" class="small">边界：不是纯文字账单；视觉贴近游戏前端</text>
+
+  <rect x="60" y="335" width="640" height="600" class="card"/>
+  <text x="92" y="382" class="label">1. 押注情况可视化</text>
+  <text x="92" y="416" class="small">百家乐示例：下注不只显示“闲家 1.00”，还要落到前端同款押注区域。</text>
+
+  <rect x="92" y="452" width="576" height="270" rx="18" fill="#b98971"/>
+  <rect x="110" y="470" width="100" height="88" rx="8" fill="#071342"/>
+  <text x="128" y="514" class="white" font-size="24" font-weight="700">闲家对子</text>
+  <text x="144" y="544" fill="#c4c9d4" font-size="20">11:1</text>
+  <rect x="110" y="570" width="100" height="88" rx="8" fill="#06113d"/>
+  <text x="144" y="620" fill="#98a2b3" font-size="22" font-weight="700">闲宝</text>
+
+  <rect x="222" y="470" width="172" height="252" rx="8" fill="#1263f1"/>
+  <text x="248" y="520" class="white" font-size="44" font-weight="800">闲家</text>
+  <text x="250" y="554" class="white" font-size="25">1:1</text>
+  <circle cx="275" cy="605" r="34" class="chip"/>
+  <text x="264" y="617" class="white" font-size="30" font-weight="800">1</text>
+  <text x="252" y="670" fill="#b6cdfd" font-size="22" font-weight="700">人 22</text>
+  <text x="252" y="700" fill="#b6cdfd" font-size="22" font-weight="700">$ 94.91</text>
+
+  <rect x="406" y="470" width="142" height="252" rx="70" fill="#16ad42"/>
+  <text x="458" y="530" class="white" font-size="38" font-weight="800">和</text>
+  <text x="462" y="566" class="white" font-size="25">8:1</text>
+
+  <rect x="560" y="470" width="90" height="252" rx="8" fill="#d70418"/>
+  <text x="584" y="520" class="white" font-size="34" font-weight="800">庄家</text>
+  <text x="588" y="554" class="white" font-size="22">0.95:1</text>
+  <text x="584" y="670" fill="#fecdd3" font-size="20" font-weight="700">人 24</text>
+  <text x="584" y="700" fill="#fecdd3" font-size="20" font-weight="700">$ 237.89</text>
+
+  <rect x="92" y="744" width="576" height="46" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="112" y="775" class="blue" font-size="22" font-weight="700">验收：本单投注额标在对应下注格；多玩法、多点位全部可见。</text>
+
+  <rect x="740" y="335" width="640" height="600" class="card"/>
+  <text x="772" y="382" class="label">2. 开奖结果可视化</text>
+  <text x="772" y="416" class="small">按前端历史注单表现：展示庄闲牌、点数、输赢、投注明细。</text>
+
+  <rect x="775" y="452" width="570" height="300" rx="18" fill="#1f1f1f"/>
+  <rect x="775" y="452" width="570" height="72" rx="18" fill="#3b3b3b"/>
+  <text x="1010" y="498" class="white" font-size="28" font-weight="800">百家乐3</text>
+  <text x="802" y="560" fill="#a8a8a8" font-size="22">2026/5/18 10:29:41</text>
+  <text x="802" y="604" fill="#a8a8a8" font-size="22">总投注</text>
+  <text x="802" y="637" class="white" font-size="26">$ 1.00</text>
+  <text x="1080" y="604" fill="#a8a8a8" font-size="22">净额</text>
+  <text x="1080" y="637" class="green" font-size="26" font-weight="800">$ 1.00</text>
+  <text x="802" y="688" fill="#a8a8a8" font-size="22">游戏ID #14066760912</text>
+  <text x="1080" y="688" fill="#a8a8a8" font-size="22">牌局 #60912008</text>
+
+  <rect x="775" y="752" width="570" height="170" rx="18" fill="#404040"/>
+  <text x="900" y="805" class="white" font-size="32" font-weight="800">闲家: 5</text>
+  <text x="1110" y="805" class="white" font-size="32" font-weight="800">庄家: 0</text>
+
+  <rect x="875" y="840" width="56" height="76" rx="6" fill="#fff"/>
+  <text x="886" y="872" fill="#111827" font-size="24" font-weight="800" transform="rotate(90 886 872)">10♠</text>
+  <rect x="938" y="840" width="56" height="76" rx="6" fill="#fff"/>
+  <text x="948" y="870" fill="#ef4444" font-size="25" font-weight="800">5♦</text>
+  <rect x="1000" y="840" width="56" height="76" rx="6" fill="#fff"/>
+  <text x="1010" y="870" fill="#ef4444" font-size="25" font-weight="800">J♥</text>
+
+  <rect x="1145" y="840" width="56" height="76" rx="6" fill="#fff"/>
+  <text x="1156" y="870" fill="#ef4444" font-size="25" font-weight="800">9♥</text>
+  <rect x="1207" y="840" width="56" height="76" rx="6" fill="#fff"/>
+  <text x="1218" y="870" fill="#111827" font-size="25" font-weight="800">3♣</text>
+  <rect x="1269" y="840" width="56" height="76" rx="6" fill="#fff"/>
+  <text x="1280" y="870" fill="#ef4444" font-size="25" font-weight="800">8♥</text>
+
+  <rect x="775" y="930" width="570" height="32" rx="8" fill="#0f0f0f"/>
+  <text x="802" y="953" fill="#d0d0d0" font-size="20">投注类型：闲家</text>
+  <text x="1036" y="953" fill="#d0d0d0" font-size="20">投注 $ 1.00</text>
+  <text x="1210" y="953" class="green" font-size="20" font-weight="800">净额 $ 1.00</text>
+
+  <rect x="60" y="965" width="640" height="92" class="callout"/>
+  <text x="84" y="1003" class="num">3</text>
+  <text x="125" y="1003" font-size="23" font-weight="700">技术方向</text>
+  <text x="125" y="1038" class="small">优先复用前端下注区、历史注单结果、牌面和赔率映射。</text>
+
+  <rect x="740" y="965" width="640" height="72" class="callout"/>
+  <text x="764" y="1009" class="num">4</text>
+  <text x="805" y="1009" font-size="23" font-weight="700">同一数据源驱动后台弹窗和下游 URL。</text>
+</svg>
