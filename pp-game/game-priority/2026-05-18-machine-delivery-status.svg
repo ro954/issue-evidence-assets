@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+<defs><style>
+.title{font:700 42px Arial,sans-serif;fill:#162033}.subtitle{font:400 22px Arial,sans-serif;fill:#637083}.section{font:700 24px Arial,sans-serif;fill:#253047}.head{font:700 19px Arial,sans-serif;fill:#576273}.cell{font:500 21px Arial,sans-serif;fill:#263244}.name{font-weight:700;letter-spacing:0}.mono{font-family:Menlo,Consolas,monospace;font-size:20px}.pill{font:700 18px Arial,sans-serif}.callout{font:700 20px Arial,sans-serif;fill:#111827}.note{font:500 18px Arial,sans-serif;fill:#5B6678}.cardTitle{font:700 24px Arial,sans-serif;fill:#1D2738}.cardItem{font:700 20px Arial,Consolas,sans-serif;fill:#293447}
+</style></defs>
+<rect width="1600" height="980" fill="#F5F7FB"/><rect x="40" y="36" width="1520" height="908" rx="26" fill="#FFFFFF" stroke="#DDE3EE"/>
+<text x="74" y="100" class="title">机台交付状态看板</text><text x="74" y="138" class="subtitle">pp-game #124 补充：2026-05-18 用于产品、技术、QA 同步当前交付状态</text>
+<circle cx="1292" cy="92" r="22" fill="#E9EEF8"/><text x="1292" y="100" text-anchor="middle" class="callout">OK</text><text x="1324" y="99" class="note">正文表格与原型图保持一致</text>
+<text x="74" y="198" class="section">状态明细</text><rect x="74" y="218" width="1452" height="52" rx="12" fill="#EEF2F7"/>
+<text x="110" y="252" class="head">机台</text><text x="626" y="252" class="head">分组</text><text x="822" y="252" class="head">优先级</text><text x="1016" y="252" class="head">机台编号</text><text x="1232" y="252" class="head">交付状态</text>
+<rect x="74" y="270" width="1452" height="56" fill="#FFFFFF"/>
+<text x="110" y="306" class="cell name">MEGA_WHEEL</text>
+<text x="626" y="306" class="cell">showgame</text>
+<text x="822" y="306" class="cell">P1</text>
+<text x="1016" y="306" class="cell mono">801</text>
+<rect x="1232" y="278" width="132" height="36" rx="16" fill="#E7F0FF" stroke="#84AFFF" stroke-width="2"/><text x="1298" y="301" text-anchor="middle" class="pill" fill="#2255A4">测试中</text>
+<rect x="74" y="328" width="1452" height="56" fill="#FAFBFD"/>
+<text x="110" y="364" class="cell name">MEGA_ROULETTE</text>
+<text x="626" y="364" class="cell">roulette</text>
+<text x="822" y="364" class="cell">P1</text>
+<text x="1016" y="364" class="cell mono">204</text>
+<rect x="1232" y="336" width="132" height="36" rx="16" fill="#E7F0FF" stroke="#84AFFF" stroke-width="2"/><text x="1298" y="359" text-anchor="middle" class="pill" fill="#2255A4">测试中</text>
+<rect x="74" y="386" width="1452" height="56" fill="#FFFFFF"/>
+<text x="110" y="422" class="cell name">SWEET_BONANZA_CANDYLAND</text>
+<text x="626" y="422" class="cell">showgame</text>
+<text x="822" y="422" class="cell">P2</text>
+<text x="1016" y="422" class="cell mono">1101</text>
+<rect x="1232" y="394" width="132" height="36" rx="16" fill="#E6F7EF" stroke="#75D3A5" stroke-width="2"/><text x="1298" y="417" text-anchor="middle" class="pill" fill="#147248">可上线</text>
+<rect x="74" y="444" width="1452" height="56" fill="#FAFBFD"/>
+<text x="110" y="480" class="cell name">CRYSTAL_ROULETTE</text>
+<text x="626" y="480" class="cell">roulette</text>
+<text x="822" y="480" class="cell">回归</text>
+<text x="1016" y="480" class="cell mono">2501</text>
+<rect x="1232" y="452" width="132" height="36" rx="16" fill="#E6F7EF" stroke="#75D3A5" stroke-width="2"/><text x="1298" y="475" text-anchor="middle" class="pill" fill="#147248">可上线</text>
+<rect x="74" y="502" width="1452" height="56" fill="#FFFFFF"/>
+<text x="110" y="538" class="cell name">DRAGON_TIGER</text>
+<text x="626" y="538" class="cell">table</text>
+<text x="822" y="538" class="cell">移除</text>
+<text x="1016" y="538" class="cell mono">657</text>
+<rect x="1232" y="510" width="132" height="36" rx="16" fill="#EEF2F7" stroke="#A9B3C4" stroke-width="2"/><text x="1298" y="533" text-anchor="middle" class="pill" fill="#536071">暂时移除</text>
+<rect x="74" y="560" width="1452" height="56" fill="#FAFBFD"/>
+<text x="110" y="596" class="cell name">BACCARAT_3</text>
+<text x="626" y="596" class="cell">table</text>
+<text x="822" y="596" class="cell">新增</text>
+<text x="1016" y="596" class="cell mono">403</text>
+<rect x="1232" y="568" width="132" height="36" rx="16" fill="#E7F0FF" stroke="#84AFFF" stroke-width="2"/><text x="1298" y="591" text-anchor="middle" class="pill" fill="#2255A4">测试中</text>
+<line x1="74" y1="656" x2="1526" y2="656" stroke="#DDE3EE" stroke-width="2"/><text x="74" y="682" class="section">状态分组视图</text>
+<rect x="74" y="700" width="320" height="186" rx="18" fill="#FFF9EC" stroke="#F2C766" stroke-width="3"/>
+<circle cx="108" cy="734" r="18" fill="#F2C766"/><text x="108" y="741" text-anchor="middle" class="callout">1</text>
+<text x="140" y="742" class="cardTitle">待测试 (0)</text>
+<text x="108" y="786" class="cardItem">当前无</text>
+<rect x="428" y="700" width="320" height="186" rx="18" fill="#F1F6FF" stroke="#84AFFF" stroke-width="3"/>
+<circle cx="462" cy="734" r="18" fill="#84AFFF"/><text x="462" y="741" text-anchor="middle" class="callout">2</text>
+<text x="494" y="742" class="cardTitle">测试中 (3)</text>
+<text x="462" y="786" class="cardItem">MEGA_WHEEL</text><text x="462" y="820" class="cardItem">MEGA_ROULETTE</text><text x="462" y="854" class="cardItem">BACCARAT_3</text>
+<rect x="782" y="700" width="320" height="186" rx="18" fill="#EFFBF5" stroke="#75D3A5" stroke-width="3"/>
+<circle cx="816" cy="734" r="18" fill="#75D3A5"/><text x="816" y="741" text-anchor="middle" class="callout">3</text>
+<text x="848" y="742" class="cardTitle">可上线 (2)</text>
+<text x="816" y="786" class="cardItem">SWEET_BONANZA_CANDYLAND</text><text x="816" y="820" class="cardItem">CRYSTAL_ROULETTE</text>
+<rect x="1136" y="700" width="320" height="186" rx="18" fill="#F5F7FA" stroke="#A9B3C4" stroke-width="3"/>
+<circle cx="1170" cy="734" r="18" fill="#A9B3C4"/><text x="1170" y="741" text-anchor="middle" class="callout">4</text>
+<text x="1202" y="742" class="cardTitle">暂时移除 (1)</text>
+<text x="1170" y="786" class="cardItem">DRAGON_TIGER</text>
+<text x="74" y="918" class="note">标注：1 待测试 = QA 还未开始完整测试；2 测试中 = 正在验证中；3 可上线 = 产品/QA 当前判断可进入上线准备；4 暂时移除 = 本轮机台交付状态中先移除。</text>
+</svg>
