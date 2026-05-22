@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="712" viewBox="0 0 1600 712">
+  <rect width="1600" height="712" fill="#f6f8fb"/>
+  <rect x="32" y="28" width="1536" height="656" rx="18" fill="#ffffff" stroke="#d7dee8"/>
+  <text x="54" y="82" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" fill="#172033">机台交付状态看板</text>
+  <text x="54" y="122" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#637083">仅展示当前已上线 / 已开发机台；完整开发顺序见下方列表。</text>
+  <rect x="54" y="150" width="1520" height="492" rx="10" fill="#ffffff" stroke="#cfd8e3"/>
+  <rect x="54" y="150" width="1520" height="82" rx="10" fill="#243b5a"/>
+  <rect x="54" y="198" width="1520" height="34" fill="#243b5a"/>
+  <text x="72" y="201" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">中文名</text>
+  <text x="332" y="201" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">英文名</text>
+  <text x="662" y="201" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">机台</text>
+  <text x="1017" y="201" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">交付状态</text>
+  <text x="1182" y="201" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">说明</text>
+  <rect x="54" y="232" width="1520" height="82" fill="#f9fbfd"/>
+  <line x1="54" y1="232" x2="1574" y2="232" stroke="#e4e9f0"/>
+  <text x="72" y="282" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">超级幸运轮</text>
+  <text x="332" y="282" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Mega Wheel</text>
+  <text x="662" y="282" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">MEGA_WHEEL</text>
+  <text x="1017" y="282" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#067a46">已上线</text>
+  <text x="1182" y="282" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">用户确认已上线，进入线上回归验收</text>
+  <rect x="54" y="314" width="1520" height="82" fill="#ffffff"/>
+  <line x1="54" y1="314" x2="1574" y2="314" stroke="#e4e9f0"/>
+  <text x="72" y="364" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">超级轮盘</text>
+  <text x="332" y="364" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Mega Roulette</text>
+  <text x="662" y="364" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">MEGA_ROULETTE</text>
+  <text x="1017" y="364" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#067a46">已上线</text>
+  <text x="1182" y="364" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">已上线机台，进入线上回归验收</text>
+  <rect x="54" y="396" width="1520" height="82" fill="#f9fbfd"/>
+  <line x1="54" y1="396" x2="1574" y2="396" stroke="#e4e9f0"/>
+  <text x="72" y="446" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">真人甜入心扉</text>
+  <text x="332" y="446" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Sweet Bonanza CandyLand</text>
+  <text x="662" y="446" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">SWEET_BONANZA_CANDYLAND</text>
+  <text x="1017" y="446" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#233044">已开发</text>
+  <text x="1182" y="446" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">已开发机台，只做回归验收</text>
+  <rect x="54" y="478" width="1520" height="82" fill="#ffffff"/>
+  <line x1="54" y1="478" x2="1574" y2="478" stroke="#e4e9f0"/>
+  <text x="72" y="528" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">百家樂3</text>
+  <text x="332" y="528" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Baccarat 3</text>
+  <text x="662" y="528" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">BACCARAT_3</text>
+  <text x="1017" y="528" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#233044">已开发</text>
+  <text x="1182" y="528" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">用户确认已开发完，只做回归验收</text>
+  <rect x="54" y="560" width="1520" height="82" fill="#f9fbfd"/>
+  <line x1="54" y1="560" x2="1574" y2="560" stroke="#e4e9f0"/>
+  <text x="72" y="610" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">水晶轮盘</text>
+  <text x="332" y="610" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Crystal Roulette</text>
+  <text x="662" y="610" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">CRYSTAL_ROULETTE</text>
+  <text x="1017" y="610" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#233044">已开发</text>
+  <text x="1182" y="610" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">已开发机台，只做回归验收</text>
+  <line x1="314" y1="150" x2="314" y2="642" stroke="#e0e6ee"/>
+  <line x1="644" y1="150" x2="644" y2="642" stroke="#e0e6ee"/>
+  <line x1="999" y1="150" x2="999" y2="642" stroke="#e0e6ee"/>
+  <line x1="1164" y1="150" x2="1164" y2="642" stroke="#e0e6ee"/>
+  <text x="54" y="676" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#748094">更新日期：2026-05-22（Asia/Bangkok）</text>
+</svg>
