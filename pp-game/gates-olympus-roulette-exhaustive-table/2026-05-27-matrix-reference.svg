@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Gates of Olympus Roulette bet comparison matrix reference">
+  <rect width="1280" height="720" fill="#111827"/>
+  <rect x="48" y="44" width="1184" height="632" rx="18" fill="#ffffff"/>
+  <text x="88" y="104" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Gates of Olympus Roulette 押注对照穷举表</text>
+  <text x="88" y="144" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">QA 对照范围：下注点 × 开奖结果 × 幸运数字 / 翻倍器 / 奖励局 × 历史现金净额</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="88" y="190" width="330" height="150" rx="10" fill="#eef2ff" stroke="#6366f1"/>
+    <text x="116" y="232" font-size="24" font-weight="700" fill="#312e81">① 基础下注点</text>
+    <text x="116" y="270" font-size="20" fill="#1f2937">157 个下注点 × 37 个结果</text>
+    <text x="116" y="304" font-size="18" fill="#4b5563">直注/分注/街注/角注/线注/列注/打注/均等机会</text>
+    <rect x="474" y="190" width="330" height="150" rx="10" fill="#ecfdf5" stroke="#10b981"/>
+    <text x="502" y="232" font-size="24" font-weight="700" fill="#065f46">② 组合下注点</text>
+    <text x="502" y="270" font-size="20" fill="#1f2937">394 个组合 × 37 个结果</text>
+    <text x="502" y="304" font-size="18" fill="#4b5563">赛道/邻注/尾数直注/尾数分注/Full Complete</text>
+    <rect x="860" y="190" width="330" height="150" rx="10" fill="#fff7ed" stroke="#f97316"/>
+    <text x="888" y="232" font-size="24" font-weight="700" fill="#9a3412">③ 特殊扩展</text>
+    <text x="888" y="270" font-size="20" fill="#1f2937">L / LB / G 三类扩展</text>
+    <text x="888" y="304" font-size="18" fill="#4b5563">幸运数字、翻倍器后幸运倍数、奖励局最终倍数</text>
+    <rect x="88" y="392" width="1102" height="198" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="116" y="438" font-size="23" font-weight="700" fill="#111827">核心核对公式</text>
+    <text x="116" y="480" font-size="20" fill="#1f2937">普通命中：现金净额 = S × R(A)；未命中：现金净额 = -S</text>
+    <text x="116" y="520" font-size="20" fill="#1f2937">直注命中幸运数字：现金净额 = S × L；翻倍器后：S × LB；奖励局：S × G</text>
+    <text x="116" y="560" font-size="20" fill="#1f2937">组合注：按子注拆分逐项结算，只有直注子注命中特殊数字时替换为特殊倍数</text>
+  </g>
+  <text x="88" y="642" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">完整 CSV / README / summary 已放 GitHub Gist；本图为低保真说明图，不替代真实 PP 截图。</text>
+</svg>
