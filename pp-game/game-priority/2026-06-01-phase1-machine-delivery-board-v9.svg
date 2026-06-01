@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1094" viewBox="0 0 1600 1094">
+  <rect width="1600" height="1094" fill="#f6f8fb"/>
+  <rect x="32" y="28" width="1536" height="1038" rx="18" fill="#ffffff" stroke="#d7dee8"/>
+  <rect x="54" y="54" width="118" height="34" rx="17" fill="#e7f6ee"/>
+  <text x="113" y="78" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#12864e">一期</text>
+  <text x="54" y="124" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="36" font-weight="700" fill="#172033">一期机台交付看板</text>
+  <text x="54" y="154" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#637083">展示一期当前已上线机台；奥林匹斯之门轮盘、龙虎与普通百家樂系列已合并纳入。</text>
+  <rect x="54" y="162" width="1520" height="862" rx="10" fill="#ffffff" stroke="#cfd8e3"/>
+  <rect x="54" y="162" width="1520" height="82" rx="10" fill="#243b5a"/>
+  <rect x="54" y="210" width="1520" height="34" fill="#243b5a"/>
+  <text x="72" y="213" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">中文名</text>
+  <text x="342" y="213" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">英文名</text>
+  <text x="692" y="213" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">机台</text>
+  <text x="1077" y="213" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">交付状态</text>
+  <text x="1252" y="213" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#ffffff">说明</text>
+  <rect x="54" y="244" width="1520" height="60" fill="#f9fbfd"/>
+  <line x1="54" y1="244" x2="1574" y2="244" stroke="#e4e9f0"/>
+  <text x="72" y="282" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">超级幸运轮</text>
+  <text x="342" y="282" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Mega Wheel</text>
+  <text x="692" y="282" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">MEGA_WHEEL</text>
+  <rect x="1073" y="256" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="280" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="282" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">进入线上回归验收</text>
+  <rect x="54" y="304" width="1520" height="60" fill="#ffffff"/>
+  <line x1="54" y1="304" x2="1574" y2="304" stroke="#e4e9f0"/>
+  <text x="72" y="342" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">超级轮盘</text>
+  <text x="342" y="342" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Mega Roulette</text>
+  <text x="692" y="342" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">MEGA_ROULETTE</text>
+  <rect x="1073" y="316" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="340" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="342" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">进入线上回归验收</text>
+  <rect x="54" y="364" width="1520" height="60" fill="#f9fbfd"/>
+  <line x1="54" y1="364" x2="1574" y2="364" stroke="#e4e9f0"/>
+  <text x="72" y="402" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">真人甜入心扉</text>
+  <text x="342" y="402" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Sweet Bonanza CandyLand</text>
+  <text x="692" y="402" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">SWEET_BONANZA_CANDYLAND</text>
+  <rect x="1073" y="376" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="400" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="402" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">进入线上回归验收</text>
+  <rect x="54" y="424" width="1520" height="60" fill="#ffffff"/>
+  <line x1="54" y1="424" x2="1574" y2="424" stroke="#e4e9f0"/>
+  <text x="72" y="462" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">百家樂3</text>
+  <text x="342" y="462" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Baccarat 3</text>
+  <text x="692" y="462" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">BACCARAT_3</text>
+  <rect x="1073" y="436" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="460" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="462" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">普通百家樂系列已上线</text>
+  <rect x="54" y="484" width="1520" height="60" fill="#f9fbfd"/>
+  <line x1="54" y1="484" x2="1574" y2="484" stroke="#e4e9f0"/>
+  <text x="72" y="522" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">水晶轮盘</text>
+  <text x="342" y="522" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Crystal Roulette</text>
+  <text x="692" y="522" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">CRYSTAL_ROULETTE</text>
+  <rect x="1073" y="496" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="520" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="522" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">进入线上回归验收</text>
+  <rect x="54" y="544" width="1520" height="60" fill="#ffffff"/>
+  <line x1="54" y1="544" x2="1574" y2="544" stroke="#e4e9f0"/>
+  <text x="72" y="582" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">奥林匹斯之门轮盘</text>
+  <text x="342" y="582" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Gates of Olympus Roulette</text>
+  <text x="692" y="582" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">GATES_OF_OLYMPUS_ROULETTE</text>
+  <rect x="1073" y="556" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="580" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="582" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">已纳入一期交付</text>
+  <rect x="54" y="604" width="1520" height="60" fill="#f9fbfd"/>
+  <line x1="54" y1="604" x2="1574" y2="604" stroke="#e4e9f0"/>
+  <text x="72" y="642" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">龙虎</text>
+  <text x="342" y="642" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Dragon Tiger</text>
+  <text x="692" y="642" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">DRAGON_TIGER</text>
+  <rect x="1073" y="616" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="640" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="642" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">已纳入一期交付</text>
+  <rect x="54" y="664" width="1520" height="60" fill="#ffffff"/>
+  <line x1="54" y1="664" x2="1574" y2="664" stroke="#e4e9f0"/>
+  <text x="72" y="702" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">百家樂1</text>
+  <text x="342" y="702" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Baccarat 1</text>
+  <text x="692" y="702" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">BACCARAT_1</text>
+  <rect x="1073" y="676" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="700" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="702" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">普通百家樂系列已上线</text>
+  <rect x="54" y="724" width="1520" height="60" fill="#f9fbfd"/>
+  <line x1="54" y1="724" x2="1574" y2="724" stroke="#e4e9f0"/>
+  <text x="72" y="762" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">百家樂2</text>
+  <text x="342" y="762" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Baccarat 2</text>
+  <text x="692" y="762" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">BACCARAT_2</text>
+  <rect x="1073" y="736" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="760" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="762" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">普通百家樂系列已上线</text>
+  <rect x="54" y="784" width="1520" height="60" fill="#ffffff"/>
+  <line x1="54" y1="784" x2="1574" y2="784" stroke="#e4e9f0"/>
+  <text x="72" y="822" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">百家樂5</text>
+  <text x="342" y="822" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Baccarat 5</text>
+  <text x="692" y="822" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">BACCARAT_5</text>
+  <rect x="1073" y="796" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="820" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="822" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">普通百家樂系列已上线</text>
+  <rect x="54" y="844" width="1520" height="60" fill="#f9fbfd"/>
+  <line x1="54" y1="844" x2="1574" y2="844" stroke="#e4e9f0"/>
+  <text x="72" y="882" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">百家樂6</text>
+  <text x="342" y="882" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Baccarat 6</text>
+  <text x="692" y="882" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">BACCARAT_6</text>
+  <rect x="1073" y="856" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="880" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="882" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">普通百家樂系列已上线</text>
+  <rect x="54" y="904" width="1520" height="60" fill="#ffffff"/>
+  <line x1="54" y1="904" x2="1574" y2="904" stroke="#e4e9f0"/>
+  <text x="72" y="942" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">百家樂7</text>
+  <text x="342" y="942" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Baccarat 7</text>
+  <text x="692" y="942" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">BACCARAT_7</text>
+  <rect x="1073" y="916" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="940" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="942" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">普通百家樂系列已上线</text>
+  <rect x="54" y="964" width="1520" height="60" fill="#f9fbfd"/>
+  <line x1="54" y1="964" x2="1574" y2="964" stroke="#e4e9f0"/>
+  <text x="72" y="1002" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">百家樂9</text>
+  <text x="342" y="1002" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">Baccarat 9</text>
+  <text x="692" y="1002" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="500" fill="#233044">BACCARAT_9</text>
+  <rect x="1073" y="976" width="112" height="36" rx="18" fill="#12864e"/>
+  <text x="1129" y="1000" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700" fill="#ffffff">已上线</text>
+  <text x="1252" y="1002" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#233044">普通百家樂系列已上线</text>
+  <line x1="54" y1="1024" x2="1574" y2="1024" stroke="#e4e9f0"/>
+  <line x1="324" y1="162" x2="324" y2="1024" stroke="#e0e6ee"/>
+  <line x1="674" y1="162" x2="674" y2="1024" stroke="#e0e6ee"/>
+  <line x1="1059" y1="162" x2="1059" y2="1024" stroke="#e0e6ee"/>
+  <line x1="1234" y1="162" x2="1234" y2="1024" stroke="#e0e6ee"/>
+  <text x="54" y="1066" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#748094">更新日期：2026-06-01（Asia/Bangkok）</text>
+</svg>
