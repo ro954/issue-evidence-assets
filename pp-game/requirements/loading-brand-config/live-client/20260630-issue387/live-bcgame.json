@@ -1,0 +1,348 @@
+{
+  "theme": "bcgame",
+  "pageUrl": "https://client.onepayment.vip/desktop/roulette/",
+  "title": "Roulette",
+  "bodyText": "Session expired\nYour session has expired because you were inactive for too long. Please return to the site to log in again.\nOK",
+  "summary": {
+    "byKind": {
+      "font": 6,
+      "image": 7,
+      "other": 13,
+      "script": 3,
+      "stylesheet": 4,
+      "video": 0
+    },
+    "inlineSvgCount": 1,
+    "totalCount": 33
+  },
+  "filteredAssets": [
+    {
+      "kind": "stylesheet",
+      "name": "style.css",
+      "url": "https://client.onepayment.vip/apps/themes/1.0.0/dedicated/bcgame/style.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 34,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "stylesheet",
+      "name": "variant.css",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.36/assets/styles/default/variant.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 35,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "name": "curtain_1366x768.png",
+      "url": "https://client.onepayment.vip/apps/themes/1.0.0/games/default/variants/default/dedicated/curtain_1366x768.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "name": "bcgame.png",
+      "url": "https://client.onepayment.vip/apps/themes/1.0.0/operatorlogos/bcgame.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "name": "title_en.png",
+      "url": "https://client.onepayment.vip/apps/themes/1.0.0/games/default/variants/default/dedicated/title_en.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ]
+    },
+    {
+      "kind": "stylesheet",
+      "name": "style.css",
+      "url": "https://client.onepayment.vip/apps/themes/1.0.0/games/default/operators/bcgame/style.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 36,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "name": "roulette.manifest.json",
+      "url": "https://client.onepayment.vip/apps/feature-flags/1.0.0/roulette.manifest.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "name": "release.json",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/release.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ]
+    },
+    {
+      "kind": "script",
+      "name": "main.js",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/main.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 40,
+          "property": "src"
+        }
+      ]
+    },
+    {
+      "kind": "stylesheet",
+      "name": "main.css",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/main.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 41,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "name": "Poppins-Regular.woff2",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/assets/fonts/Poppins-Regular.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 42,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "name": "core.json",
+      "url": "https://client.onepayment.vip/apps/translations-ui/latest/en/core.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "name": "table_name.json",
+      "url": "https://client.onepayment.vip/apps/translations-ui/latest/en/table_name.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "name": "promo.json",
+      "url": "https://client.onepayment.vip/apps/translations-ui/latest/en/promo.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "name": "roulette.json",
+      "url": "https://client.onepayment.vip/apps/translations-ui/latest/en/roulette.json",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "name": "Poppins-SemiBold.woff2",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/assets/fonts/Poppins-SemiBold.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 43,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "name": "PragmaticFlatCards.woff2",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/assets/fonts/PragmaticFlatCards.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 44,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "name": "Montserrat-Chip.woff2",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/assets/fonts/Montserrat-Chip.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 45,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "name": "OnestGame-Bold.woff2",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/assets/fonts/onest/OnestGame-Bold.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 46,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "name": "OnestGame-Regular.woff2",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/assets/fonts/onest/OnestGame-Regular.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 47,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "name": "raceTrackSpotsHover.svg",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/assets/images/node_modules/@pp/roulette-ui-kit/src/components/raceTrack/assets/raceTrackSpotsHover.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 49,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "name": "betBoardSpotsHover.svg",
+      "url": "https://client.onepayment.vip/apps/roulette/1.2.37/assets/images/node_modules/@pp/roulette-ui-kit/src/components/betBoard/assets/betBoardSpotsHover.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 48,
+          "property": "href"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "name": "favicon.svg",
+      "url": "https://client.onepayment.vip/desktop/roulette/assets/favicon/favicon.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 29,
+          "property": "href"
+        }
+      ]
+    }
+  ],
+  "screenshotPath": "/Users/mini5/work/pplive/pp-game/tmp/live-client-check/issue387-20260630/live-bcgame.png"
+}
