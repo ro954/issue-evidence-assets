@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+  <defs>
+    <style>
+      .bg { fill: #f3f5f8; }
+      .sidebar { fill: #172033; }
+      .topbar, .panel, .card { fill: #ffffff; }
+      .muted { fill: #6b7280; font-size: 18px; }
+      .tiny { fill: #64748b; font-size: 15px; }
+      .label { fill: #334155; font-size: 17px; font-weight: 600; }
+      .title { fill: #111827; font-size: 30px; font-weight: 700; }
+      .side-title { fill: #f8fafc; font-size: 24px; font-weight: 700; }
+      .side-text { fill: #cbd5e1; font-size: 18px; }
+      .nav-active { fill: #2563eb; }
+      .nav { fill: #293449; }
+      .line { stroke: #d7dce5; stroke-width: 1.5; fill: none; }
+      .axis { stroke: #e5e7eb; stroke-width: 1.2; }
+      .blue { fill: #2563eb; }
+      .blue-line { stroke: #2563eb; stroke-width: 4; fill: none; }
+      .green { fill: #059669; }
+      .green-line { stroke: #059669; stroke-width: 4; fill: none; }
+      .red { fill: #dc2626; }
+      .amber { fill: #d97706; }
+      .soft-blue { fill: #eff6ff; }
+      .soft-green { fill: #ecfdf5; }
+      .soft-red { fill: #fef2f2; }
+      .soft-amber { fill: #fffbeb; }
+      .shadow { filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.08)); }
+      .callout { fill: #f97316; }
+      .callout-text { fill: white; font-size: 18px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; }
+      .mono { fill: #0f172a; font-size: 26px; font-weight: 700; }
+      .table-head { fill: #f8fafc; }
+      .table-line { stroke: #e5e7eb; stroke-width: 1; }
+      text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="1120"/>
+
+  <rect class="sidebar" x="0" y="0" width="226" height="1120"/>
+  <text class="side-title" x="28" y="48">PPLive 后台</text>
+  <text class="side-text" x="28" y="84">内部运营中心</text>
+  <rect class="nav-active" x="18" y="130" width="190" height="48" rx="6"/>
+  <text fill="#ffffff" font-size="18" font-weight="700" x="48" y="161">仪表盘首页</text>
+  <rect class="nav" x="18" y="192" width="190" height="44" rx="6"/>
+  <text class="side-text" x="48" y="220">运营报表</text>
+  <rect class="nav" x="18" y="248" width="190" height="44" rx="6"/>
+  <text class="side-text" x="48" y="276">注单记录</text>
+  <rect class="nav" x="18" y="304" width="190" height="44" rx="6"/>
+  <text class="side-text" x="48" y="332">商户管理</text>
+  <rect class="nav" x="18" y="360" width="190" height="44" rx="6"/>
+  <text class="side-text" x="48" y="388">玩家列表</text>
+
+  <rect class="topbar shadow" x="226" y="0" width="1374" height="72"/>
+  <text class="muted" x="256" y="44">首页 / 运营仪表盘</text>
+  <rect x="1300" y="20" width="240" height="32" rx="16" fill="#eef2ff"/>
+  <text class="label" x="1324" y="42">数据更新时间 15:35</text>
+
+  <text class="title" x="260" y="120">运营仪表盘 / 首页</text>
+  <text class="muted" x="260" y="150">用于快速查看今日经营、每日趋势、分商户表现；详细核对跳转 #206 运营报表。</text>
+
+  <rect class="panel shadow" x="260" y="176" width="1020" height="92" rx="8"/>
+  <circle class="callout" cx="286" cy="198" r="17"/><text class="callout-text" x="286" y="198">1</text>
+  <text class="label" x="320" y="207">筛选口径</text>
+  <rect x="320" y="224" width="160" height="30" rx="5" fill="#f8fafc" stroke="#d7dce5"/>
+  <text class="tiny" x="336" y="244">今日 2026-07-02</text>
+  <rect x="492" y="224" width="142" height="30" rx="5" fill="#f8fafc" stroke="#d7dce5"/>
+  <text class="tiny" x="508" y="244">币种：THB</text>
+  <rect x="646" y="224" width="170" height="30" rx="5" fill="#f8fafc" stroke="#d7dce5"/>
+  <text class="tiny" x="662" y="244">商户：全部商户</text>
+  <rect x="828" y="224" width="154" height="30" rx="5" fill="#f8fafc" stroke="#d7dce5"/>
+  <text class="tiny" x="844" y="244">游戏：全部</text>
+  <rect x="998" y="224" width="92" height="30" rx="5" fill="#2563eb"/>
+  <text fill="#ffffff" font-size="15" font-weight="700" x="1022" y="244">查询</text>
+  <rect x="1102" y="224" width="96" height="30" rx="5" fill="#f8fafc" stroke="#d7dce5"/>
+  <text class="tiny" x="1123" y="244">重置</text>
+
+  <rect class="panel shadow" x="1304" y="176" width="246" height="348" rx="8"/>
+  <text class="label" x="1330" y="212">标注说明</text>
+  <text class="tiny" x="1330" y="246">1 筛选条件与 #206 同口径</text>
+  <text class="tiny" x="1330" y="278">2 今日核心汇总与环比</text>
+  <text class="tiny" x="1330" y="310">3 每日趋势，默认近 7/30 天</text>
+  <text class="tiny" x="1330" y="342">4 分商户排行与下钻</text>
+  <text class="tiny" x="1330" y="374">5 异常/状态提示</text>
+  <text class="tiny" x="1330" y="406">6 高频报表入口</text>
+  <rect x="1330" y="436" width="190" height="52" rx="6" class="soft-amber"/>
+  <text class="tiny" x="1344" y="458">多币种金额不得混算；</text>
+  <text class="tiny" x="1344" y="480">需筛选或按币种分组。</text>
+
+  <g>
+    <circle class="callout" cx="286" cy="306" r="17"/><text class="callout-text" x="286" y="306">2</text>
+    <rect class="card shadow" x="260" y="294" width="238" height="116" rx="8"/>
+    <text class="muted" x="288" y="328">总投注额</text>
+    <text class="mono" x="288" y="366">12,680,450.00</text>
+    <text class="green" font-size="16" font-weight="700" x="288" y="394">较昨日 +8.4%</text>
+
+    <rect class="card shadow" x="520" y="294" width="238" height="116" rx="8"/>
+    <text class="muted" x="548" y="328">总派奖额</text>
+    <text class="mono" x="548" y="366">11,928,770.00</text>
+    <text class="red" font-size="16" font-weight="700" x="548" y="394">较昨日 +11.2%</text>
+
+    <rect class="card shadow" x="780" y="294" width="238" height="116" rx="8"/>
+    <text class="muted" x="808" y="328">平台输赢</text>
+    <text class="mono" x="808" y="366">751,680.00</text>
+    <text class="green" font-size="16" font-weight="700" x="808" y="394">平台赢为正</text>
+
+    <rect class="card shadow" x="1040" y="294" width="238" height="116" rx="8"/>
+    <text class="muted" x="1068" y="328">RTP / 活跃玩家</text>
+    <text class="mono" x="1068" y="366">94.07% / 3,482</text>
+    <text class="tiny" x="1068" y="394">按结算时间统计</text>
+  </g>
+
+  <rect class="panel shadow" x="260" y="438" width="700" height="356" rx="8"/>
+  <circle class="callout" cx="286" cy="464" r="17"/><text class="callout-text" x="286" y="464">3</text>
+  <text class="label" x="320" y="472">每日趋势</text>
+  <text class="tiny" x="320" y="500">近 7 天，可切换近 30 天；指标默认：投注额、派奖额、平台输赢。</text>
+  <rect x="760" y="454" width="74" height="28" rx="14" class="soft-blue"/>
+  <text class="tiny" x="779" y="474">7 天</text>
+  <rect x="842" y="454" width="82" height="28" rx="14" fill="#f8fafc" stroke="#d7dce5"/>
+  <text class="tiny" x="862" y="474">30 天</text>
+  <line class="axis" x1="320" y1="716" x2="910" y2="716"/>
+  <line class="axis" x1="320" y1="650" x2="910" y2="650"/>
+  <line class="axis" x1="320" y1="584" x2="910" y2="584"/>
+  <line class="axis" x1="320" y1="518" x2="910" y2="518"/>
+  <polyline class="blue-line" points="330,686 420,642 510,662 600,592 690,552 780,586 890,514"/>
+  <polyline class="green-line" points="330,704 420,678 510,690 600,644 690,604 780,628 890,586"/>
+  <polyline points="330,706 420,692 510,710 600,672 690,650 780,664 890,622" stroke="#d97706" stroke-width="4" fill="none"/>
+  <circle class="blue" cx="890" cy="514" r="6"/>
+  <circle class="green" cx="890" cy="586" r="6"/>
+  <circle class="amber" cx="890" cy="622" r="6"/>
+  <text class="tiny" x="332" y="752">06-26</text>
+  <text class="tiny" x="424" y="752">06-27</text>
+  <text class="tiny" x="514" y="752">06-28</text>
+  <text class="tiny" x="604" y="752">06-29</text>
+  <text class="tiny" x="694" y="752">06-30</text>
+  <text class="tiny" x="784" y="752">07-01</text>
+  <text class="tiny" x="874" y="752">07-02</text>
+  <circle class="blue" cx="332" cy="776" r="5"/><text class="tiny" x="344" y="782">投注额</text>
+  <circle class="green" cx="424" cy="776" r="5"/><text class="tiny" x="436" y="782">派奖额</text>
+  <circle class="amber" cx="520" cy="776" r="5"/><text class="tiny" x="532" y="782">平台输赢</text>
+
+  <rect class="panel shadow" x="982" y="438" width="298" height="356" rx="8"/>
+  <circle class="callout" cx="1008" cy="464" r="17"/><text class="callout-text" x="1008" y="464">5</text>
+  <text class="label" x="1042" y="472">异常与状态提示</text>
+  <rect x="1012" y="508" width="232" height="62" rx="6" class="soft-amber"/>
+  <text class="tiny" x="1030" y="532">RTP 偏高商户 2 个</text>
+  <text class="tiny" x="1030" y="554">点击查看商户报表</text>
+  <rect x="1012" y="588" width="232" height="62" rx="6" class="soft-red"/>
+  <text class="tiny" x="1030" y="612">今日无数据商户 5 个</text>
+  <text class="tiny" x="1030" y="634">确认是否暂停或未接入</text>
+  <rect x="1012" y="668" width="232" height="62" rx="6" class="soft-green"/>
+  <text class="tiny" x="1030" y="692">汇总任务正常</text>
+  <text class="tiny" x="1030" y="714">最近刷新 15:35</text>
+  <text class="tiny" x="1012" y="762">一期可先做状态/空数据提示；</text>
+  <text class="tiny" x="1012" y="784">复杂告警规则后续拆分。</text>
+
+  <rect class="panel shadow" x="260" y="822" width="1020" height="226" rx="8"/>
+  <circle class="callout" cx="286" cy="848" r="17"/><text class="callout-text" x="286" y="848">4</text>
+  <text class="label" x="320" y="856">分商户概览</text>
+  <text class="tiny" x="320" y="884">默认按投注额降序；查看详情跳转 #206 商户报表并带入筛选。</text>
+  <rect class="table-head" x="290" y="902" width="960" height="38"/>
+  <text class="tiny" x="310" y="926">商户</text>
+  <text class="tiny" x="470" y="926">币种</text>
+  <text class="tiny" x="550" y="926">投注额</text>
+  <text class="tiny" x="690" y="926">派奖额</text>
+  <text class="tiny" x="830" y="926">平台输赢</text>
+  <text class="tiny" x="970" y="926">活跃玩家</text>
+  <text class="tiny" x="1100" y="926">操作</text>
+  <line class="table-line" x1="290" y1="940" x2="1250" y2="940"/>
+  <text class="tiny" x="310" y="972">Demo Merchant A</text>
+  <text class="tiny" x="470" y="972">THB</text>
+  <text class="tiny" x="550" y="972">5,820,000</text>
+  <text class="tiny" x="690" y="972">5,430,400</text>
+  <text class="green" font-size="15" x="830" y="972">389,600</text>
+  <text class="tiny" x="970" y="972">1,426</text>
+  <text class="blue" font-size="15" x="1100" y="972">查看详情</text>
+  <line class="table-line" x1="290" y1="990" x2="1250" y2="990"/>
+  <text class="tiny" x="310" y="1022">Demo Merchant B</text>
+  <text class="tiny" x="470" y="1022">THB</text>
+  <text class="tiny" x="550" y="1022">3,150,450</text>
+  <text class="tiny" x="690" y="1022">3,246,800</text>
+  <text class="red" font-size="15" x="830" y="1022">-96,350</text>
+  <text class="tiny" x="970" y="1022">904</text>
+  <text class="blue" font-size="15" x="1100" y="1022">查看详情</text>
+
+  <rect class="panel shadow" x="1304" y="550" width="246" height="498" rx="8"/>
+  <circle class="callout" cx="1330" cy="576" r="17"/><text class="callout-text" x="1330" y="576">6</text>
+  <text class="label" x="1364" y="584">快捷入口</text>
+  <rect x="1330" y="620" width="188" height="42" rx="6" class="soft-blue"/>
+  <text class="label" x="1352" y="647">盈亏报表</text>
+  <rect x="1330" y="678" width="188" height="42" rx="6" class="soft-blue"/>
+  <text class="label" x="1352" y="705">商户报表</text>
+  <rect x="1330" y="736" width="188" height="42" rx="6" class="soft-blue"/>
+  <text class="label" x="1352" y="763">游戏报表</text>
+  <rect x="1330" y="794" width="188" height="42" rx="6" class="soft-blue"/>
+  <text class="label" x="1352" y="821">玩家报表</text>
+  <rect x="1330" y="872" width="188" height="92" rx="6" fill="#f8fafc" stroke="#d7dce5"/>
+  <text class="tiny" x="1348" y="900">商户账号只显示本商户；</text>
+  <text class="tiny" x="1348" y="922">不可通过 URL/接口越权；</text>
+  <text class="tiny" x="1348" y="944">无权限模块隐藏或提示。</text>
+</svg>
