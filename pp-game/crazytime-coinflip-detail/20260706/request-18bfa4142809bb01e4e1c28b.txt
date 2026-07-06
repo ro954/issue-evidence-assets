@@ -1,0 +1,6 @@
+curl 'https://babylonpegasea.evo-games.com/public/player/history/v2/game/18bfa4142809bb01e4e1c28b?gameProvider=evolution&settledAt=2026-07-06T07%3A53%3A59.229Z&client_version=6.20260702.93536.63079-9a31721523-mini' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'Referer: https://babylonpegasea.evo-games.com/frontend/evo/mini/' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Google Chrome";v="149", "Chromium";v="149", "Not)A;Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0'
