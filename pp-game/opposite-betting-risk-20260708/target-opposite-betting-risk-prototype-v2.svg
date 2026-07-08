@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060">
+  <defs>
+    <style>
+      .bg{fill:#f4f6f8}.panel{fill:#fff;stroke:#d8dee6;stroke-width:1}.side{fill:#202936}.top{fill:#ffffff;stroke:#d8dee6}.text{font-family:Arial,'PingFang SC','Microsoft YaHei',sans-serif;fill:#202936}.muted{fill:#667085}.small{font-size:18px}.xs{font-size:15px}.title{font-size:30px;font-weight:700}.h{font-size:22px;font-weight:700}.th{fill:#edf2f7}.line{stroke:#d8dee6;stroke-width:1}.blue{fill:#2563eb}.amber{fill:#d97706}.red{fill:#dc2626}.tag{fill:#eef2ff;stroke:#c7d2fe}.call{fill:#fff7ed;stroke:#f97316;stroke-width:2}.calltext{font-size:16px;fill:#9a3412;font-weight:700}.badge{fill:#f97316}.badgetext{font-size:18px;fill:#fff;font-weight:700}.btn{fill:#2563eb}.btn2{fill:#f8fafc;stroke:#cbd5e1}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1060"/>
+  <rect class="side" x="0" y="0" width="250" height="1060"/>
+  <text x="28" y="52" font-size="26" fill="#fff" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-weight="700">PPLive 后台</text>
+  <text x="28" y="118" font-size="18" fill="#aeb8c6" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif">首页仪表盘</text>
+  <text x="28" y="166" font-size="18" fill="#aeb8c6" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif">游戏管理</text>
+  <rect x="16" y="196" width="218" height="44" rx="6" fill="#344256"/>
+  <text x="28" y="224" font-size="18" fill="#fff" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif">风控管理</text>
+  <text x="48" y="270" font-size="16" fill="#d7dee8" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif">对刷风险查询</text>
+  <text x="48" y="310" font-size="16" fill="#aeb8c6" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif">风险标记记录</text>
+  <text x="28" y="366" font-size="18" fill="#aeb8c6" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif">注单与交易</text>
+  <text x="28" y="414" font-size="18" fill="#aeb8c6" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif">系统设置</text>
+
+  <rect class="top" x="250" y="0" width="1350" height="72"/>
+  <text class="text" x="286" y="44" font-size="20">风控管理 / 对刷风险查询</text>
+  <text class="muted" x="1360" y="44" font-size="16">内部后台 · T+ 风控报表</text>
+
+  <text class="title text" x="286" y="124">对刷 / 对冲投注风险查询</text>
+  <text class="muted small" x="286" y="156">结算后 T+ 报表；重复配对 + 净输赢转移为主，IP 仅作弱佐证。</text>
+  <rect class="call" x="1116" y="112" width="356" height="54" rx="8"/><circle class="badge" cx="1142" cy="139" r="15"/><text class="badgetext" x="1137" y="146">A</text><text class="calltext" x="1168" y="145">一期定位：结算后 T+ 报表</text>
+
+  <rect class="panel" x="286" y="188" width="1274" height="142" rx="8"/>
+  <text class="h text" x="314" y="226">1 查询条件</text>
+  <rect class="btn2" x="314" y="250" width="140" height="42" rx="6"/><text class="muted xs" x="332" y="276">商户 / 赌场</text>
+  <rect class="btn2" x="472" y="250" width="132" height="42" rx="6"/><text class="muted xs" x="490" y="276">游戏类型</text>
+  <rect class="btn2" x="622" y="250" width="132" height="42" rx="6"/><text class="muted xs" x="648" y="276">赌桌</text>
+  <rect class="btn2" x="772" y="250" width="166" height="42" rx="6"/><text class="muted xs" x="790" y="276">玩家 / 游戏ID</text>
+  <rect class="btn2" x="956" y="250" width="140" height="42" rx="6"/><text class="muted xs" x="978" y="276">风险等级</text>
+  <rect class="btn2" x="1114" y="250" width="176" height="42" rx="6"/><text class="muted xs" x="1132" y="276">时间范围</text>
+  <rect class="btn" x="1310" y="250" width="92" height="42" rx="6"/><text x="1340" y="277" font-size="16" fill="#fff" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif">查询</text>
+  <rect class="btn2" x="1416" y="250" width="104" height="42" rx="6"/><text class="muted xs" x="1448" y="276">导出</text>
+  <rect class="btn2" x="314" y="302" width="146" height="18" rx="9"/><text class="muted xs" x="328" y="317">处理状态：全部</text>
+
+  <rect class="panel" x="286" y="356" width="1274" height="270" rx="8"/>
+  <text class="h text" x="314" y="392">2 风险命中列表</text>
+  <rect class="th" x="314" y="414" width="1218" height="40"/>
+  <text class="xs muted" x="334" y="439">时间</text><text class="xs muted" x="470" y="439">游戏 / 赌桌</text><text class="xs muted" x="652" y="439">左侧玩家</text><text class="xs muted" x="850" y="439">右侧玩家</text><text class="xs muted" x="1048" y="439">对冲金额</text><text class="xs muted" x="1194" y="439">风险</text><text class="xs muted" x="1320" y="439">状态</text><text class="xs muted" x="1440" y="439">操作</text>
+  <line class="line" x1="314" y1="454" x2="1532" y2="454"/>
+  <text class="xs text" x="334" y="490">07-08 15:22</text><text class="xs text" x="470" y="490">Baccarat / Speed 1</text><text class="xs text" x="652" y="490">u_1042 庄 1,000</text><text class="xs text" x="850" y="490">u_8821 闲 980</text><text class="xs text" x="1048" y="490">980 USD</text><text class="xs red" x="1194" y="490">严重 92</text><text class="xs amber" x="1320" y="490">待处理</text><text class="xs blue" x="1440" y="490">详情</text>
+  <line class="line" x1="314" y1="508" x2="1532" y2="508"/>
+  <text class="xs text" x="334" y="544">07-08 14:58</text><text class="xs text" x="470" y="544">Roulette / Auto 3</text><text class="xs text" x="652" y="544">u_7710 红 500</text><text class="xs text" x="850" y="544">u_7709 黑 500</text><text class="xs text" x="1048" y="544">500 USD</text><text class="xs red" x="1194" y="544">高 84</text><text class="xs amber" x="1320" y="544">观察中</text><text class="xs blue" x="1440" y="544">详情</text>
+  <line class="line" x1="314" y1="562" x2="1532" y2="562"/>
+  <text class="xs text" x="334" y="598">07-08 13:40</text><text class="xs text" x="470" y="598">Dragon Tiger / DT 2</text><text class="xs text" x="652" y="598">u_1901 龙 300</text><text class="xs text" x="850" y="598">u_1908 虎 290</text><text class="xs text" x="1048" y="598">290 USD</text><text class="xs amber" x="1194" y="598">中 66</text><text class="xs muted" x="1320" y="598">未处理</text><text class="xs blue" x="1440" y="598">详情</text>
+  <rect class="call" x="1168" y="336" width="308" height="52" rx="8"/><circle class="badge" cx="1194" cy="362" r="15"/><text class="badgetext" x="1189" y="369">B</text><text class="calltext" x="1220" y="368">列表先帮运营找异常组合</text>
+
+  <rect class="panel" x="286" y="654" width="610" height="276" rx="8"/>
+  <text class="h text" x="314" y="690">3 命中详情与证据链</text>
+  <text class="xs muted" x="314" y="724">同局反向投注：庄 vs 闲；金额相似度 98%</text>
+  <text class="xs muted" x="314" y="758">30 分钟内重复配对：8 次；对冲金额合计：7,860 USD</text>
+  <text class="xs muted" x="314" y="792">主判据：重复配对 + 净输赢转移；IP 待埋点后弱佐证</text>
+  <text class="xs muted" x="314" y="826">资金表现：左侧账号 7 日净赢，右侧账号 7 日净输</text>
+  <rect class="tag" x="314" y="858" width="112" height="34" rx="17"/><text class="xs blue" x="334" y="880">查看注单</text>
+  <rect class="tag" x="446" y="858" width="112" height="34" rx="17"/><text class="xs blue" x="466" y="880">查看交易</text>
+  <rect class="tag" x="578" y="858" width="112" height="34" rx="17"/><text class="xs blue" x="598" y="880">导出证据</text>
+  <rect class="call" x="458" y="946" width="402" height="54" rx="8"/><circle class="badge" cx="484" cy="973" r="15"/><text class="badgetext" x="479" y="980">C</text><text class="calltext" x="510" y="979">详情页必须能回查注单、交易、净输赢</text>
+
+  <rect class="panel" x="930" y="654" width="630" height="276" rx="8"/>
+  <text class="h text" x="958" y="690">4 人工处置</text>
+  <text class="xs muted" x="958" y="724">处理动作：确认风险 / 误报 / 观察中 / 加入观察名单</text>
+  <text class="xs muted" x="958" y="758">一期只记录人工判断和备注，不自动封号、不冻结余额。</text>
+  <text class="xs muted" x="958" y="792">二期可联动玩家风险标签、限额组建议、出款复核提醒。</text>
+  <rect class="btn" x="958" y="834" width="118" height="42" rx="6"/><text x="986" y="861" font-size="16" fill="#fff" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif">标记风险</text>
+  <rect class="btn2" x="1096" y="834" width="118" height="42" rx="6"/><text class="muted xs" x="1124" y="861">标记误报</text>
+  <rect class="btn2" x="1234" y="834" width="140" height="42" rx="6"/><text class="muted xs" x="1252" y="861">加入观察名单</text>
+  <rect class="call" x="1046" y="946" width="362" height="54" rx="8"/><circle class="badge" cx="1072" cy="973" r="15"/><text class="badgetext" x="1067" y="980">D</text><text class="calltext" x="1098" y="979">设备指纹移出一期，自动限制另评审</text>
+<text class="muted xs" x="286" y="1030">说明：示意图 v2；设备指纹不纳入一期，IP 需补正常放行路径埋点后才可作为弱信号。</text>
+</svg>
