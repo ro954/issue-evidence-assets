@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="914" viewBox="0 0 1800 914">
-<rect x="0" y="0" width="1800" height="914" fill="#f6f8fb"/>
-<rect x="32" y="28" width="1736" height="858" rx="18" fill="#ffffff" stroke="#d7dee8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="950" viewBox="0 0 1800 950">
+<rect x="0" y="0" width="1800" height="950" fill="#f6f8fb"/>
+<rect x="32" y="28" width="1736" height="894" rx="18" fill="#ffffff" stroke="#d7dee8"/>
 <rect x="54" y="54" width="116" height="34" rx="17" fill="#e8f3ff"/>
 <text x="112" y="78" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#0f6fb8">EVO</text>
 <text x="54" y="124" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="36" font-weight="700" fill="#172033">EVO 机台交付看板</text>
-<text x="54" y="154" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#637083">当前统计：自动化测试中 6 项；测试中 6 项；跳过 1 项。</text>
-<text x="54" y="182" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#637083">排序：自动化测试中 → 测试中 → 跳过；Lightning Storm 不进入本期测试和上线验收。</text>
+<text x="54" y="154" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#637083">当前统计：自动化测试中 6 项；测试中 6 项；跳过 / 无法实现 2 项。</text>
+<text x="54" y="182" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#637083">排序：自动化测试中 → 测试中 → 跳过 / 无法实现；两项均不进入本期测试和上线验收。</text>
 
 <rect x="54" y="206" width="350" height="74" rx="10" fill="#f3e8ff" stroke="#d9e2ec"/>
 <text x="78" y="236" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#7e22ce">自动化测试中</text>
@@ -15,10 +15,10 @@
 <text x="450" y="236" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#0f6fb8">测试中</text>
 <text x="450" y="263" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#172033">6 项</text>
 <rect x="798" y="206" width="350" height="74" rx="10" fill="#fff1e8" stroke="#d9e2ec"/>
-<text x="822" y="236" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#9a3412">跳过</text>
-<text x="822" y="263" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#172033">1 项</text>
+<text x="822" y="236" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#9a3412">跳过 / 无法实现</text>
+<text x="822" y="263" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#172033">2 项</text>
 
-<rect x="54" y="306" width="1692" height="524" rx="10" fill="#ffffff" stroke="#cfd8e3"/>
+<rect x="54" y="306" width="1692" height="560" rx="10" fill="#ffffff" stroke="#cfd8e3"/>
 <rect x="54" y="306" width="1692" height="56" rx="10" fill="#243b5a"/>
 <rect x="54" y="334" width="1692" height="28" fill="#243b5a"/>
 <text x="72" y="342" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#ffffff">中文名</text>
@@ -76,9 +76,13 @@
 <rect x="902" y="764" width="100" height="24" rx="12" fill="#0f6fb8"/><text x="952" y="782" text-anchor="middle" font-family="Arial, 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#ffffff">测试中</text><text x="1060" y="782" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#233044">验证各段下注、撤注、派彩、余额与历史金额</text>
 
 <rect x="54" y="794" width="1692" height="36" fill="#f9fbfd"/><line x1="54" y1="794" x2="1746" y2="794" stroke="#e4e9f0"/>
-<text x="72" y="818" font-family="Arial, 'PingFang SC', sans-serif" font-size="18" fill="#233044">闪电风暴</text><text x="310" y="818" font-family="Arial, sans-serif" font-size="18" fill="#233044">Lightning Storm</text><text x="590" y="818" font-family="Arial, sans-serif" font-size="17" fill="#233044">LightningStorm01</text>
-<rect x="902" y="800" width="100" height="24" rx="12" fill="#9a3412"/><text x="952" y="818" text-anchor="middle" font-family="Arial, 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#ffffff">跳过</text><text x="1060" y="818" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#233044">技术评估无法制作，本期跳过</text>
+<text x="72" y="818" font-family="Arial, 'PingFang SC', sans-serif" font-size="18" fill="#233044">疯狂硬币翻转</text><text x="310" y="818" font-family="Arial, sans-serif" font-size="18" fill="#233044">Crazy Coin Flip</text><text x="590" y="818" font-family="Arial, sans-serif" font-size="17" fill="#233044">CrazyCoinFlip001</text>
+<rect x="892" y="800" width="120" height="24" rx="12" fill="#9a3412"/><text x="952" y="818" text-anchor="middle" font-family="Arial, 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#ffffff">无法实现</text><text x="1060" y="818" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#233044">技术确认无法实现，已从开发清单移除</text>
 
-<line x1="54" y1="830" x2="1746" y2="830" stroke="#e4e9f0"/>
-<text x="54" y="864" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="600" fill="#637083">备注：本看板只展示当前交付状态；完整候选顺序、ID 补齐和分批规则仍以下方主表为准。</text>
+<rect x="54" y="830" width="1692" height="36" fill="#ffffff"/><line x1="54" y1="830" x2="1746" y2="830" stroke="#e4e9f0"/>
+<text x="72" y="854" font-family="Arial, 'PingFang SC', sans-serif" font-size="18" fill="#233044">闪电风暴</text><text x="310" y="854" font-family="Arial, sans-serif" font-size="18" fill="#233044">Lightning Storm</text><text x="590" y="854" font-family="Arial, sans-serif" font-size="17" fill="#233044">LightningStorm01</text>
+<rect x="902" y="836" width="100" height="24" rx="12" fill="#9a3412"/><text x="952" y="854" text-anchor="middle" font-family="Arial, 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#ffffff">跳过</text><text x="1060" y="854" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#233044">技术评估无法制作，本期跳过</text>
+
+<line x1="54" y1="866" x2="1746" y2="866" stroke="#e4e9f0"/>
+<text x="54" y="900" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="600" fill="#637083">备注：本看板只展示当前交付状态；完整候选顺序、ID 补齐和分批规则仍以下方主表为准。</text>
 </svg>
