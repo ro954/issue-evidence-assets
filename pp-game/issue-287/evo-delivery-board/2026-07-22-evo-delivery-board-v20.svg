@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1796" viewBox="0 0 2200 1796">
+<rect x="0" y="0" width="2200" height="1796" fill="#f6f8fb"/>
+<rect x="32" y="28" width="2136" height="1740" rx="18" fill="#ffffff" stroke="#d7dee8"/>
+<rect x="54" y="54" width="116" height="34" rx="17" fill="#e8f3ff"/>
+<text x="112" y="78" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#0f6fb8">EVO</text>
+<text x="54" y="124" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="36" font-weight="700" fill="#172033">EVO 机台交付看板</text>
+<text x="54" y="154" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="500" fill="#637083">当前统计：测试完成 1 项；自动化测试中 22 项；测试中 4 项；开发完毕但暂时同步不到 2 项；无法实现 2 项。</text>
+<text x="54" y="182" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="600" fill="#15803d">正式服上线状态（2026-07-22）：已上线 21 项；未上线 10 项。</text>
+<rect x="54" y="206" width="320" height="74" rx="10" fill="#e9f8ee" stroke="#d9e2ec"/>
+<text x="78" y="236" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#15803d">测试完成</text>
+<text x="78" y="263" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#172033">1 项</text>
+<rect x="482" y="206" width="320" height="74" rx="10" fill="#f3e8ff" stroke="#d9e2ec"/>
+<text x="506" y="236" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#7e22ce">自动化测试中</text>
+<text x="506" y="263" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#172033">22 项</text>
+<rect x="910" y="206" width="320" height="74" rx="10" fill="#e8f3ff" stroke="#d9e2ec"/>
+<text x="934" y="236" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#0f6fb8">测试中</text>
+<text x="934" y="263" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#172033">4 项</text>
+<rect x="1338" y="206" width="320" height="74" rx="10" fill="#fff7d6" stroke="#d9e2ec"/>
+<text x="1362" y="236" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#b45309">开发完毕 / 暂时同步不到</text>
+<text x="1362" y="263" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#172033">2 项</text>
+<rect x="1766" y="206" width="320" height="74" rx="10" fill="#fff1e8" stroke="#d9e2ec"/>
+<text x="1790" y="236" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="700" fill="#9a3412">无法实现</text>
+<text x="1790" y="263" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#172033">2 项</text>
+<rect x="54" y="306" width="2092" height="1404" rx="10" fill="#ffffff" stroke="#cfd8e3"/>
+<rect x="54" y="306" width="2092" height="56" rx="10" fill="#243b5a"/>
+<rect x="54" y="334" width="2092" height="28" fill="#243b5a"/>
+<text x="72" y="342" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#ffffff">中文名</text>
+<text x="370" y="342" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#ffffff">英文名</text>
+<text x="760" y="342" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#ffffff">机台</text>
+<text x="1210" y="342" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#ffffff">交付状态</text>
+<text x="1430" y="342" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#ffffff">上线状态</text>
+<text x="1515" y="342" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="700" fill="#ffffff">说明</text>
+<rect x="54" y="362" width="2092" height="34" fill="#e9f8ee"/>
+<circle cx="76" cy="379" r="5" fill="#15803d"/>
+<text x="91" y="385" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#15803d">测试完成 · 1 项</text>
+<line x1="54" y1="396" x2="2146" y2="396" stroke="#dfe5ec" stroke-width="1"/>
+<rect x="54" y="396" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="421" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">基础轮盘</text>
+<text x="370" y="421" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Roulette</text>
+<text x="760" y="421" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">vctlz20yfnmp1ylr</text>
+<rect x="1160" y="403" width="100" height="24" rx="12" fill="#15803d"/>
+<text x="1210" y="421" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">测试完成</text>
+<rect x="1375" y="403" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="421" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="421" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">基础基准机台验证完成</text>
+<line x1="54" y1="434" x2="2146" y2="434" stroke="#e4e9f0"/>
+<rect x="54" y="434" width="2092" height="34" fill="#f3e8ff"/>
+<circle cx="76" cy="451" r="5" fill="#7e22ce"/>
+<text x="91" y="457" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#7e22ce">自动化测试中 · 22 项</text>
+<line x1="54" y1="468" x2="2146" y2="468" stroke="#dfe5ec" stroke-width="1"/>
+<rect x="54" y="468" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="493" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">疯狂时刻</text>
+<text x="370" y="493" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Crazy Time</text>
+<text x="760" y="493" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">CrazyTime0000001</text>
+<rect x="1140" y="475" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="493" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="475" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="493" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="493" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">自动化覆盖特殊玩法验收</text>
+<line x1="54" y1="506" x2="2146" y2="506" stroke="#e4e9f0"/>
+<rect x="54" y="506" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="531" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">冰上钓鱼</text>
+<text x="370" y="531" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Ice Fishing</text>
+<text x="760" y="531" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">IceFishing000001</text>
+<rect x="1140" y="513" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="531" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="513" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="531" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="531" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">自动化验证进入、下注、结算、历史</text>
+<line x1="54" y1="544" x2="2146" y2="544" stroke="#e4e9f0"/>
+<rect x="54" y="544" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="569" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">欢乐时光</text>
+<text x="370" y="569" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Funky Time</text>
+<text x="760" y="569" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">FunkyTime0000001</text>
+<rect x="1140" y="551" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="569" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="551" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="569" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="569" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">自动化覆盖特殊玩法、动画、历史与结算</text>
+<line x1="54" y1="582" x2="2146" y2="582" stroke="#e4e9f0"/>
+<rect x="54" y="582" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="607" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">自动轮盘</text>
+<text x="370" y="607" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Auto-Roulette</text>
+<text x="760" y="607" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">48z5pjps3ntvqc1b</text>
+<rect x="1140" y="589" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="607" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="589" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="607" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="607" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">自动化验证自动桌入口、下注、开奖与后台注单</text>
+<line x1="54" y1="620" x2="2146" y2="620" stroke="#e4e9f0"/>
+<rect x="54" y="620" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="645" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">极速自动轮盘</text>
+<text x="370" y="645" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Speed Auto Roulette</text>
+<text x="760" y="645" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">SpeedAutoRo00001</text>
+<rect x="1140" y="627" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="645" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="627" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="645" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="645" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">自动化验证快速局节奏、下注、开奖与结算</text>
+<line x1="54" y1="658" x2="2146" y2="658" stroke="#e4e9f0"/>
+<rect x="54" y="658" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="683" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">闪电轮盘</text>
+<text x="370" y="683" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Lightning Roulette</text>
+<text x="760" y="683" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">LightningTable01</text>
+<rect x="1140" y="665" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="683" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="665" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="683" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="683" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">验证幸运号倍率、派彩、余额与标准轮盘回归</text>
+<line x1="54" y1="696" x2="2146" y2="696" stroke="#e4e9f0"/>
+<rect x="54" y="696" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="721" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">XXXtreme 闪电轮盘</text>
+<text x="370" y="721" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">XXXtreme Lightning Roulette</text>
+<text x="760" y="721" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">XxxtremeLigh0001</text>
+<rect x="1140" y="703" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="721" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="703" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="721" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="721" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">验证多幸运号、Chain Lightning、派彩与余额</text>
+<line x1="54" y1="734" x2="2146" y2="734" stroke="#e4e9f0"/>
+<rect x="54" y="734" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="759" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">轮盘精致版／沉浸式轮盘</text>
+<text x="370" y="759" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Immersive Roulette</text>
+<text x="760" y="759" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">7x0b1tgh7agmf6hv</text>
+<rect x="1140" y="741" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="759" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="741" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="759" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="759" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #498 逐桌验收</text>
+<line x1="54" y1="772" x2="2146" y2="772" stroke="#e4e9f0"/>
+<rect x="54" y="772" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="797" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">西班牙语轮盘</text>
+<text x="370" y="797" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Ruleta en Español</text>
+<text x="760" y="797" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">p675txa7cdt6za26</text>
+<rect x="1140" y="779" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="797" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="779" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="797" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="797" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #498 逐桌验收</text>
+<line x1="54" y1="810" x2="2146" y2="810" stroke="#e4e9f0"/>
+<rect x="54" y="810" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="835" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">VIP 自动轮盘</text>
+<text x="370" y="835" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Auto-Roulette VIP</text>
+<text x="760" y="835" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">01rb77cq1gtenhmo</text>
+<rect x="1140" y="817" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="835" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="817" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="835" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="835" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #498 逐桌验收</text>
+<line x1="54" y1="848" x2="2146" y2="848" stroke="#e4e9f0"/>
+<rect x="54" y="848" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="873" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">葡语真人轮盘</text>
+<text x="370" y="873" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Roleta ao Vivo</text>
+<text x="760" y="873" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">PorROU0000000001</text>
+<rect x="1140" y="855" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="873" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="855" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="873" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="873" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #498 逐桌验收</text>
+<line x1="54" y1="886" x2="2146" y2="886" stroke="#e4e9f0"/>
+<rect x="54" y="886" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="911" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">极速轮盘</text>
+<text x="370" y="911" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Speed Roulette</text>
+<text x="760" y="911" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">lkcbrbdckjxajdol</text>
+<rect x="1140" y="893" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="911" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="893" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="911" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="911" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #498 逐桌验收</text>
+<line x1="54" y1="924" x2="2146" y2="924" stroke="#e4e9f0"/>
+<rect x="54" y="924" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="949" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">VIP 轮盘</text>
+<text x="370" y="949" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">VIP Roulette</text>
+<text x="760" y="949" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">wzg6kdkad1oe7m5k</text>
+<rect x="1140" y="931" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="949" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="931" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="949" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="949" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #498 逐桌验收</text>
+<line x1="54" y1="962" x2="2146" y2="962" stroke="#e4e9f0"/>
+<rect x="54" y="962" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="987" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">西语真人极速轮盘</text>
+<text x="370" y="987" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Ruleta Bola Rapida en Vivo</text>
+<text x="760" y="987" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">oqa3v7a2t25ydg5e</text>
+<rect x="1140" y="969" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="987" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="969" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="987" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="987" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #498 逐桌验收</text>
+<line x1="54" y1="1000" x2="2146" y2="1000" stroke="#e4e9f0"/>
+<rect x="54" y="1000" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="1025" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">巨富中文轮盘</text>
+<text x="370" y="1025" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Emperor Roulette</text>
+<text x="760" y="1025" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">pv5q45yjhasyt46y</text>
+<rect x="1140" y="1007" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="1025" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="1007" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="1025" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="1025" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #498 逐桌验收</text>
+<line x1="54" y1="1038" x2="2146" y2="1038" stroke="#e4e9f0"/>
+<rect x="54" y="1038" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="1063" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">西语真人轮盘</text>
+<text x="370" y="1063" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Ruleta en Vivo</text>
+<text x="760" y="1063" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">8clwnwrupuvf0osq</text>
+<rect x="1140" y="1045" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="1063" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="1045" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="1063" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="1063" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已同步 live，进入自动化测试</text>
+<line x1="54" y1="1076" x2="2146" y2="1076" stroke="#e4e9f0"/>
+<rect x="54" y="1076" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="1101" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">马耳他赌场轮盘</text>
+<text x="370" y="1101" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Casino Malta Roulette</text>
+<text x="760" y="1101" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">mvrcophqscoqosd6</text>
+<rect x="1140" y="1083" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="1101" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="1083" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="1101" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="1101" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已同步 live，进入自动化测试</text>
+<line x1="54" y1="1114" x2="2146" y2="1114" stroke="#e4e9f0"/>
+<rect x="54" y="1114" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="1139" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">超级骰宝</text>
+<text x="370" y="1139" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Super Sic Bo</text>
+<text x="760" y="1139" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">SuperSicBo000001</text>
+<rect x="1140" y="1121" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="1139" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="1121" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="1139" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="1139" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #500 逐桌验收</text>
+<line x1="54" y1="1152" x2="2146" y2="1152" stroke="#e4e9f0"/>
+<rect x="54" y="1152" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="1177" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">极速超级骰宝</text>
+<text x="370" y="1177" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Speed Super Sic Bo</text>
+<text x="760" y="1177" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">InstantSSB000001</text>
+<rect x="1140" y="1159" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="1177" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="1159" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="1177" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="1177" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #500 逐桌验收</text>
+<line x1="54" y1="1190" x2="2146" y2="1190" stroke="#e4e9f0"/>
+<rect x="54" y="1190" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="1215" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">巨富中文骰宝</text>
+<text x="370" y="1215" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Emperor Sic Bo</text>
+<text x="760" y="1215" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">EmperorSB0000001</text>
+<rect x="1140" y="1197" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="1215" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="1197" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="1215" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="1215" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #500 逐桌验收</text>
+<line x1="54" y1="1228" x2="2146" y2="1228" stroke="#e4e9f0"/>
+<rect x="54" y="1228" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="1253" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">巨富中文骰宝 A</text>
+<text x="370" y="1253" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Emperor Sic Bo A</text>
+<text x="760" y="1253" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">EmperorSB0000002</text>
+<rect x="1140" y="1235" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="1253" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="1235" width="110" height="24" rx="12" fill="#15803d"/>
+<text x="1430" y="1253" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">已上线</text>
+<text x="1515" y="1253" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已进入自动化测试；按 #500 逐桌验收</text>
+<line x1="54" y1="1266" x2="2146" y2="1266" stroke="#e4e9f0"/>
+<rect x="54" y="1266" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="1291" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">番摊</text>
+<text x="370" y="1291" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Fan Tan</text>
+<text x="760" y="1291" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">FanTan0000000001</text>
+<rect x="1140" y="1273" width="140" height="24" rx="12" fill="#7e22ce"/>
+<text x="1210" y="1291" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#ffffff">自动化测试中</text>
+<rect x="1375" y="1273" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="1291" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="1291" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">自动化验证各段下注、撤注、派彩、余额与历史金额</text>
+<line x1="54" y1="1304" x2="2146" y2="1304" stroke="#e4e9f0"/>
+<rect x="54" y="1304" width="2092" height="34" fill="#e8f3ff"/>
+<circle cx="76" cy="1321" r="5" fill="#0f6fb8"/>
+<text x="91" y="1327" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#0f6fb8">测试中 · 4 项</text>
+<line x1="54" y1="1338" x2="2146" y2="1338" stroke="#dfe5ec" stroke-width="1"/>
+<rect x="54" y="1338" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="1363" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">MONOPOLY 大球</text>
+<text x="370" y="1363" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">MONOPOLY Big Baller</text>
+<text x="760" y="1363" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">MonBigBaller0001</text>
+<rect x="1160" y="1345" width="100" height="24" rx="12" fill="#0f6fb8"/>
+<text x="1210" y="1363" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">测试中</text>
+<rect x="1375" y="1345" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="1363" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="1363" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">验证入口、卡面、下注、特殊玩法与结算</text>
+<line x1="54" y1="1376" x2="2146" y2="1376" stroke="#e4e9f0"/>
+<rect x="54" y="1376" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="1401" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">MONOPOLY Live</text>
+<text x="370" y="1401" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">MONOPOLY Live</text>
+<text x="760" y="1401" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">Monopoly00000001</text>
+<rect x="1160" y="1383" width="100" height="24" rx="12" fill="#0f6fb8"/>
+<text x="1210" y="1401" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">测试中</text>
+<rect x="1375" y="1383" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="1401" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="1401" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">验证转盘、公共棋盘玩法、历史与结算</text>
+<line x1="54" y1="1414" x2="2146" y2="1414" stroke="#e4e9f0"/>
+<rect x="54" y="1414" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="1439" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">闪电骰子</text>
+<text x="370" y="1439" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Lightning Dice</text>
+<text x="760" y="1439" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">LightningDice001</text>
+<rect x="1160" y="1421" width="100" height="24" rx="12" fill="#0f6fb8"/>
+<text x="1210" y="1439" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">测试中</text>
+<rect x="1375" y="1421" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="1439" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="1439" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已同步 live，验证下注、开奖、特殊倍数与结算</text>
+<line x1="54" y1="1452" x2="2146" y2="1452" stroke="#e4e9f0"/>
+<rect x="54" y="1452" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="1477" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">龙虎</text>
+<text x="370" y="1477" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Dragon Tiger</text>
+<text x="760" y="1477" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">DragonTiger00001</text>
+<rect x="1160" y="1459" width="100" height="24" rx="12" fill="#0f6fb8"/>
+<text x="1210" y="1477" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">测试中</text>
+<rect x="1375" y="1459" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="1477" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="1477" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">已同步 live，验证龙、虎、和下注及结算</text>
+<line x1="54" y1="1490" x2="2146" y2="1490" stroke="#e4e9f0"/>
+<rect x="54" y="1490" width="2092" height="34" fill="#fff7d6"/>
+<circle cx="76" cy="1507" r="5" fill="#b45309"/>
+<text x="91" y="1513" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#b45309">开发完毕 / 暂未同步 · 2 项</text>
+<line x1="54" y1="1524" x2="2146" y2="1524" stroke="#dfe5ec" stroke-width="1"/>
+<rect x="54" y="1524" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="1549" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">荷花轮盘</text>
+<text x="370" y="1549" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Lotus Roulette</text>
+<text x="760" y="1549" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">pv2zgy42anvdwk3l</text>
+<rect x="1130" y="1531" width="160" height="24" rx="12" fill="#b45309"/>
+<text x="1210" y="1549" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#ffffff">开发完毕 / 暂未同步</text>
+<rect x="1375" y="1531" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="1549" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="1549" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">上游列表暂时拉取不到，未同步 live</text>
+<line x1="54" y1="1562" x2="2146" y2="1562" stroke="#e4e9f0"/>
+<rect x="54" y="1562" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="1587" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">荷花骰宝</text>
+<text x="370" y="1587" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Lotus Sic Bo</text>
+<text x="760" y="1587" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">LotusSicBo000001</text>
+<rect x="1130" y="1569" width="160" height="24" rx="12" fill="#b45309"/>
+<text x="1210" y="1587" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#ffffff">开发完毕 / 暂未同步</text>
+<rect x="1375" y="1569" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="1587" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="1587" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">上游列表暂时拉取不到，未同步 live</text>
+<line x1="54" y1="1600" x2="2146" y2="1600" stroke="#e4e9f0"/>
+<rect x="54" y="1600" width="2092" height="34" fill="#fff1e8"/>
+<circle cx="76" cy="1617" r="5" fill="#9a3412"/>
+<text x="91" y="1623" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#9a3412">无法实现 · 2 项</text>
+<line x1="54" y1="1634" x2="2146" y2="1634" stroke="#dfe5ec" stroke-width="1"/>
+<rect x="54" y="1634" width="2092" height="38" fill="#ffffff"/>
+<text x="72" y="1659" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">疯狂硬币翻转</text>
+<text x="370" y="1659" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Crazy Coin Flip</text>
+<text x="760" y="1659" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">CrazyCoinFlip001</text>
+<rect x="1150" y="1641" width="120" height="24" rx="12" fill="#9a3412"/>
+<text x="1210" y="1659" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">无法实现</text>
+<rect x="1375" y="1641" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="1659" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="1659" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">技术确认无法实现，已从开发清单移除</text>
+<line x1="54" y1="1672" x2="2146" y2="1672" stroke="#e4e9f0"/>
+<rect x="54" y="1672" width="2092" height="38" fill="#f9fbfd"/>
+<text x="72" y="1697" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">闪电风暴</text>
+<text x="370" y="1697" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#233044">Lightning Storm</text>
+<text x="760" y="1697" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">LightningStorm01</text>
+<rect x="1150" y="1679" width="120" height="24" rx="12" fill="#9a3412"/>
+<text x="1210" y="1697" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">无法实现</text>
+<rect x="1375" y="1679" width="110" height="24" rx="12" fill="#64748b"/>
+<text x="1430" y="1697" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#ffffff">未上线</text>
+<text x="1515" y="1697" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#233044">技术评估无法制作，无法实现</text>
+<line x1="54" y1="1710" x2="2146" y2="1710" stroke="#e4e9f0"/>
+<text x="54" y="1748" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="600" fill="#637083">备注：分组采用轻量标题条，组内仅保留普通细分隔线；完整开发顺序、家族范围和验收规则仍以下方主表及 #498 / #500 为准。</text>
+</svg>
